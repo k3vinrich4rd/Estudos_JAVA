@@ -1,3 +1,5 @@
+package estruturadecondicao;
+
 public class If {
     public static void main(String[] args) {
         int idade = 25;
