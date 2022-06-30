@@ -1,5 +1,5 @@
 package estruturadecondicao;
-
+// Utilizando a estrutura else if (se não se) para outros contextos além do if (se)
 public class ElseIf2 {
     public static void main(String[] args) {
         int idade = 19;

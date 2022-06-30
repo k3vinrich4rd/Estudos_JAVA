@@ -1,5 +1,5 @@
 package estruturadecondicao;
-
+// Utilizando a estrutura Else (se não), em cotexto de aprovação não permitida
 public class Else {
     public static void main(String[] args) {
         int idade = 15;

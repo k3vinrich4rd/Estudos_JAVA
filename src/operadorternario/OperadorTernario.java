@@ -1,6 +1,6 @@
 package operadorternario;
 
-public class OperadorTernario {
+public class OperadorTernario { // utilizando operador ternário e if (se) e else (se não)
     public static void main(String[] args) {
         double salario = 5000;
         String doar = "Eu vou doar 500 R$ para instituição Kevin Richard";

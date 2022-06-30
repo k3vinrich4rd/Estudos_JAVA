@@ -1,6 +1,6 @@
 package operadorternario;
 
-public class OperadorTernario4 {
+public class OperadorTernario4 { // Utilizando operador ternário com String (Corda)
     public static void main(String[] args) {
         int idade = 17;
         String categoria;
