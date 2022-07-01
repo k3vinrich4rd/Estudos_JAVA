@@ -8,7 +8,7 @@ Para informar os dias da da semana para o usuário.
 public class DiasDaSemana {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        System.out.print("Digite um número, para saber o dia da semana: ");
+        System.out.print("Informe um número de 1 a 7, para saber se é dia útil ou final de semana: ");
         int numero = entrada.nextInt();
         entrada.close();
         // variáveis que switch aceita: char, int, byte, short, enum e String
