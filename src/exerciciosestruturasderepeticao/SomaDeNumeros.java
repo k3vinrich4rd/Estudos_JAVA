@@ -1,8 +1,8 @@
-package estruturaderepeticao;
+package exerciciosestruturasderepeticao;
 
 import java.util.Scanner;
 
-public class DoWhile2 {
+public class SomaDeNumeros {
     public static void main(String[] args) {
         int numero, soma = 0;
         String resposta;

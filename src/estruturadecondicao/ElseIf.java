@@ -1,4 +1,9 @@
 package estruturadecondicao;
+
+/* Else if (se não) definição:
+A declaração else if em java também testa uma condição.
+Executa se a condição do bloco if é verdadeira caso contrário o bloco else é executado
+ */
 // Utilizando a estrutura else if (se não se) para outros contextos além do if (se)
 public class ElseIf {
     public static void main(String[] args) {

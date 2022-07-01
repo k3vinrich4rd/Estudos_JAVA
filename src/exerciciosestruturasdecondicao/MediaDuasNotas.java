@@ -1,4 +1,4 @@
-package exerciciosestruturasdedecisao;
+package exerciciosestruturasdecondicao;
 // Utilizando estrutura de controle condicional simples
 // código: média de duas notas (utilizando o if (se) )
 import java.util.Scanner;

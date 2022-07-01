@@ -1,8 +1,8 @@
-package estruturaderepeticao;
+package exerciciosestruturasderepeticao;
 // Utilizando o while (Enquanto) para mudar o fluxo de um código utilizando o continue (continuar)
 // e break (Parar)
 
-public class While3 {
+public class ContadorComBreak {
     public static void main(String[] args) {
         int contador = 0;
         while (contador < 10) {

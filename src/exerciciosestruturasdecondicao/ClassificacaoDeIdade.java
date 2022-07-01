@@ -1,4 +1,4 @@
-package exerciciosestruturasdedecisao;
+package exerciciosestruturasdecondicao;
 // Estrutura condicional composta, utilizando o if (se) e else (se não)
 import java.util.Scanner;
 
