@@ -23,8 +23,8 @@ public class DoWhileCondicao2 {
 
             media = (nota1 + nota2 + nota3) / 3;
 
-            System.out.println("Quer continuar somando as médias dos alunos? [Sim/Não]: ");
-            respostaDaProfessora = entrada.nextLine();
+            System.out.print("Quer continuar somando as médias dos alunos? [Sim/Não]: ");
+            respostaDaProfessora = entrada.next();
         }while (respostaDaProfessora.equalsIgnoreCase("sim"));
         System.out.printf("A média do aluno é: %.2f " , media);
 
