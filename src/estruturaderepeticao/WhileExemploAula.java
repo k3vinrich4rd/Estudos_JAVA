@@ -1,5 +1,8 @@
 package estruturaderepeticao;
-
+/*
+ Declarando o while (enquanto)
+ (teste lógico no inicio
+ */
 public class WhileExemploAula {
     public static void main(String[] args) {
         int contador = 1;

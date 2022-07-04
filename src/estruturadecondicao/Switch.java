@@ -33,12 +33,13 @@ public class Switch {
             case 4:
                 tipo = "Quadrúpede";
                 break;
-            case 6, 8:
+            case 6:
+            case 8:
                 tipo = "Aranha";
                 break;
             default:
                 tipo = "Et";
         }
-        System.out.println("Isso é um: " + tipo);
+        System.out.println("O seu animal de estimação é uma: " + tipo);
     }
 }

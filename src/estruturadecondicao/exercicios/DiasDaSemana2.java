@@ -13,14 +13,29 @@ public class DiasDaSemana2 {
         entrada.close();
         // Segunda forma de se utilizar o switch
         switch (diasDaSemana) {
-            case 1 -> System.out.print("1 - Domingo");
-            case 2 -> System.out.print("2 - Segunda Feira");
-            case 3 -> System.out.print("3 - Terça Feira");
-            case 4 -> System.out.print("4 - Quarta Feira");
-            case 5 -> System.out.print("5 - Quinta Feira");
-            case 6 -> System.out.print("6 - Sexta Feira");
-            case 7 -> System.out.print("7 - Sábado");
-            default -> System.out.print("Número inválido");
+            case 1:
+                System.out.print("1 - Domingo");
+                break; // break(pare) permite que as informações não vaze
+            case 2:
+                System.out.print("2 - Segunda Feira");
+                break; // break(pare) permite que as informações não vaze
+            case 3:
+                System.out.print("3 - Terça Feira");
+                break;// break(pare) permite que as informações não vaze
+            case 4:
+                System.out.print("4 - Quarta Feira");
+                break;// break(pare) permite que as informações não vaze
+            case 5:
+                System.out.print("5 - Quinta Feira");
+                break;// break(pare) permite que as informações não vaze
+            case 6:
+                System.out.print("6 - Sexta Feira");
+                break;// break(pare) permite que as informações não vaze
+            case 7:
+                System.out.print("7 - Sábado");
+                break;// break(pare) permite que as informações não vaze
+            default:
+                System.out.print("Número inválido");
 
             }
         }

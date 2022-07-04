@@ -1,6 +1,7 @@
 package estruturadecondicao.exercicios;
 // Utilizando estrutura de controle condicional simples
 // código: média de duas notas (utilizando o if (se) )
+
 import java.util.Scanner;
 
 public class MediaDuasNotas {
@@ -19,7 +20,10 @@ public class MediaDuasNotas {
         double mediaDasNotas = (nota1 + nota2) / 2;
         if (mediaDasNotas > 9) {
             System.out.println("Parabéns");
-            System.out.printf("Sua média foi de: %.2f" , mediaDasNotas);
+            System.out.printf("Sua média foi de: %.2f", mediaDasNotas);
+        } else {
+            System.out.println("Reprovado");
+            System.out.printf("Sua média foi de: %.2f", mediaDasNotas);
         }
 
     }
