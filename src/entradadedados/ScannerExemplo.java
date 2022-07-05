@@ -1,7 +1,7 @@
 package entradadedados;
-
+// Entrada de dados:
 import java.util.Scanner;
-
+// Estudos sobre String
 public class ScannerExemplo {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

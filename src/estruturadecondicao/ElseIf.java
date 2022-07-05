@@ -7,6 +7,7 @@ Executa se a condição do bloco if é verdadeira caso contrário o bloco else é exe
 // Utilizando a estrutura else if (se não se) para outros contextos além do if (se)
 public class ElseIf {
     public static void main(String[] args) {
+        // Estrutura Condicional
         int idade = 19;
         if (idade < 15){
             System.out.println("Categoria infatil");

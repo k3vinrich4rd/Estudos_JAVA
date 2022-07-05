@@ -1,5 +1,6 @@
 package estruturaderepeticao.exercicios;
-
+//Utilizando estrutura de repetição (While):
+// Tabuada básica com o While
 import java.util.Scanner;
 
 public class TabuadaBasicaWhile {
@@ -10,6 +11,7 @@ public class TabuadaBasicaWhile {
         entrada.close();
 
         int multiplicador = 1;
+        // Estrutura de repetição:
         while (multiplicador <= 10) {
 
             int resultado = nunmeroDeEntrada * multiplicador;

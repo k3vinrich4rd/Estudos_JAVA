@@ -4,6 +4,7 @@ package estruturaderepeticao.exercicios;
 
 public class EscreverUmAlgoritmo20Vezes {
     public static void main(String[] args) {
+        // Estrutura de repetição:
         for (int contador = 1; contador <= 20 ; contador++) {
             System.out.println("Eu gosto de estudar algoritmos.");
         }

@@ -1,5 +1,5 @@
 package estruturaderepeticao.exercicios;
-
+// Utilizando estrutura de repetição (do while):
 import java.util.Scanner;
 
 public class ContadorBasico3 {
@@ -8,7 +8,7 @@ public class ContadorBasico3 {
         String respostaDigitadas = "";
 
 
-
+        // Estrutura de repetição:
         do {
 
             System.out.print("Digite a sua idade: ");

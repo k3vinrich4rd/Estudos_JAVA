@@ -15,7 +15,7 @@ public class DoWhileExemploAula {
             System.out.print("Você deseja rodar novamente ? [1/2]: ");
             int opcao = input.nextInt();
 
-
+            // Estrutura de condicao
             if (opcao == 1) {
                 controlador = true;
             } else {

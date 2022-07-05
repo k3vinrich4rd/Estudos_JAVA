@@ -1,5 +1,5 @@
 package estruturaderepeticao.exercicios;
-
+// Utilizando estrutura de repetição (do while):
 import java.util.Scanner;
 
 public class DoWhileSomaDeNumeros {
@@ -7,6 +7,7 @@ public class DoWhileSomaDeNumeros {
         int numero, soma = 0;
         String resposta;
         Scanner numeroDeEntrada = new Scanner(System.in);
+        // Estrutura de repetição:
         do {
             System.out.print("Digite um número: ");
             numero = numeroDeEntrada.nextInt();

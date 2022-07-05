@@ -1,7 +1,7 @@
 package entradadedados;
 // Declarando um char
 import java.util.Scanner;
-
+// Declarando uma variável do tipo char:
 public class Char {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

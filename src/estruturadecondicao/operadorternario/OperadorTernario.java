@@ -7,6 +7,7 @@ public class OperadorTernario { // utilizando operador ternário e if (se) e else
         String naoDoar = "Eu não vou doar para instituição Kevin Richard";
         String resultado = null;
 
+        // Estrutura condicional:
         if (salario > 5000){
             resultado = doar;
         }else{

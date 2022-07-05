@@ -1,5 +1,5 @@
 package estruturadecondicao;
-
+// Exemplo feito em aula:
 import java.util.Scanner;
 
 public class SwitchExemploAula {

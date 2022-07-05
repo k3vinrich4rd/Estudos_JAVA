@@ -9,7 +9,8 @@ public class WhileExemploAula2 {
     public static void main(String[] args) {
 
         boolean controlador = true;
-        int contadorSim = 0;
+        int contadorSim = 0; //Começo
+        // Estrutura de repetição:
         while (controlador) {
             System.out.println("Hello World ");
             System.out.print("Você deseja continuar rodando? S/N: ");

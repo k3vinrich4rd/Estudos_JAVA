@@ -1,6 +1,8 @@
 package estruturadecondicao.exercicios;
 import java.util.Scanner;
 public class IdadeEmDias {
+    // Idade em dias:
+    // código feito em aula
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Digite sua idade em anos: ");

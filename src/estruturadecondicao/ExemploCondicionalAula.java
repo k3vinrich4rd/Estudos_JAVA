@@ -10,7 +10,7 @@ public class ExemploCondicionalAula {
         Se a média for maior que 8 está aprovado com louvor
          */
         double media = 7;
-
+        // Estrutura condicional:
         if (media <= 6) {
             System.out.println("Está reprovado");
         } else if ((media <= 6) && (media <= 8)) {

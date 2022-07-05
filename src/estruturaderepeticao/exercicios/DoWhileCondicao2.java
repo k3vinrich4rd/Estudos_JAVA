@@ -1,5 +1,5 @@
 package estruturaderepeticao.exercicios;
-
+// Utilizando uma estrutura de repetição (do while):
 import java.util.Scanner;
 
 public class DoWhileCondicao2 {
@@ -10,7 +10,7 @@ public class DoWhileCondicao2 {
         double nota2;
         double nota3;
         double media;
-
+        // Estrutura de repetição:
         do {
             System.out.print("Informe a primeira nota: ");
             nota1 = entrada.nextDouble();
@@ -25,6 +25,7 @@ public class DoWhileCondicao2 {
 
             System.out.print("Quer continuar somando as médias dos alunos? [Sim/Não]: ");
             respostaDaProfessora = entrada.next();
+            // loop
         }while (respostaDaProfessora.equalsIgnoreCase("sim"));
         System.out.printf("A média do aluno é: %.2f " , media);
 

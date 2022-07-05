@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class SetExemplo2 {
 
-
+// Declarando um Set:
     public static void main(String[] args) {
         Set<String> emails = new HashSet<>(); // Cria um identificador para informações não serem duplicadas
         emails.add("kevinrichardve@gmail.com");

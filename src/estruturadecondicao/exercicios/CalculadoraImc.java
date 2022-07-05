@@ -1,7 +1,8 @@
 package estruturadecondicao.exercicios;
 import java.util.Scanner;
-
+// Calculando o imc:
 public class CalculadoraImc {
+    // Código feito em aula
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

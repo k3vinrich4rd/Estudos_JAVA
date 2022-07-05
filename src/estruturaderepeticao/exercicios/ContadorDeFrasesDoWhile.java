@@ -1,5 +1,5 @@
 package estruturaderepeticao.exercicios;
-
+// Utilizando estrutura de repetição (Do while)
 import java.util.Scanner;
 
 public class ContadorDeFrasesDoWhile {
@@ -10,7 +10,7 @@ public class ContadorDeFrasesDoWhile {
         entrada.close();
 
         int contador = 1;
-
+        // Estrutura de repetição:
         do {
             System.out.println(contador + " Kevin lindo");
             contador++;

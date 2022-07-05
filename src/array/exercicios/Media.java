@@ -1,5 +1,5 @@
 package array.exercicios;
-
+// Declarando uma array e fazendo um código de média
 import java.util.Scanner;
 
 public class Media {

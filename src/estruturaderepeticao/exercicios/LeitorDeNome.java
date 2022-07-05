@@ -1,5 +1,5 @@
 package estruturaderepeticao.exercicios;
-
+// Utilizando estrutura de repetição (for):
 import java.util.Scanner;
 
 public class LeitorDeNome {
@@ -8,7 +8,7 @@ public class LeitorDeNome {
         System.out.print("Digite seu nome: ");
         String nome = entrada.nextLine();
         entrada.close();
-
+        // Estrutura de repetição:
         for (int contador = 0; contador <= 20; contador++) {
             System.out.println(nome);
 

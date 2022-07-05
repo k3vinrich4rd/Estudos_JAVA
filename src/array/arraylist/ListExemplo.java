@@ -3,7 +3,7 @@ package array.arraylist;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
+// Declarando uma lista:
 public class ListExemplo {
     // Declarando um Arraylist (list)
 // Array list permite repetição de informação e armazena informação de maneira ordenada

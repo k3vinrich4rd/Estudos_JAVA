@@ -2,7 +2,7 @@ package array;
 // set (definir)
 import java.util.HashSet;
 import java.util.Set;
-
+// Declarando um set:
 public class SetExemplo {
     public static void main(String[] args) {
         Set<String> emails = new  HashSet<>(); // Hash é como se fosse um cpf virtual para cada informação

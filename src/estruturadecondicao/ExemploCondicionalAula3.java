@@ -8,7 +8,7 @@ public class ExemploCondicionalAula3 {
         System.out.print("Digite a opção desejada (1 ou 2): ");
         int opcao2 = input2.nextInt();
 
-
+        // Estrutura condicional:
         if (opcao2 == 1) {
             System.out.println("Sua opção foi número 1");
         } else if (opcao2 == 2) {

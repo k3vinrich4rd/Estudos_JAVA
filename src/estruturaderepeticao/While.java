@@ -10,6 +10,7 @@ uma expressão booleana for verdadeira.
 public class While {
     public static void main(String[] args) {
         int contador = 1; // começo
+        // Estrutura de repetição:
         while (contador <= 4) { // fim
             System.out.println("Cambalhota");
             contador++;

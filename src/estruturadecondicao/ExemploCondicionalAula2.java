@@ -10,6 +10,7 @@ public class ExemploCondicionalAula2 {
 
         //equals (é igual a) verifica e compara se foi o que o usuário digitou para exibir uma mensagem
         // Ou fazer uma ação predeterminada
+        // Estrutura condicional
         if (opcao.equalsIgnoreCase("não")) {
             System.out.println("Sua opção foi não");
         } else if (opcao.equals("s")) {

@@ -10,7 +10,7 @@ public class LeitorDeIdades {
 
         int idades = 0;
         int soma = 0;
-
+        // Estrutura de repetição:
         for (int contador = 0; contador < IdadesInformadas; contador++) {
             Scanner entrada2 = new Scanner(System.in);
             System.out.print("Informe a idade da " + (contador + 1) + " º pessoa: ");

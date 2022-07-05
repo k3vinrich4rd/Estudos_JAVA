@@ -1,5 +1,6 @@
 package estruturadecondicao.exercicios;
 import java.util.Scanner;
+// Controle pecuário:
 public class ControlePecuario {
     public static void main(String[] args) {
             double pesoPadrao = 50;

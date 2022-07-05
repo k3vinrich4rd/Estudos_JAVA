@@ -11,6 +11,7 @@ public class SomaDeNumerosFor {
 
         int valor = 0;
         int soma = 0;
+        // Estrutura de repetição:
         for (int contador = 0; contador < numeros; contador++) { // ligação de contador com números
             Scanner entrada1 = new Scanner(System.in);
             System.out.print("Digite o " + (contador + 1)  + "º número: ");

@@ -1,5 +1,5 @@
 package array;
-
+// Declarando um map.:
 import java.util.*; // Importa tudo que é da biblioteca util
 // Declarando um map.:
 public class MapExemplo {

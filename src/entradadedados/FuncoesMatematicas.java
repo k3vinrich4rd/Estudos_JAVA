@@ -1,5 +1,5 @@
 package entradadedados;
-
+// Funções matemáticas:
 public class FuncoesMatematicas {
     public static void main(String[] args) {
         double x = 3;

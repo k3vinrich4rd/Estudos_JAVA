@@ -1,5 +1,5 @@
 package estruturaderepeticao.exercicios;
-
+// Utilizando estrutura de repetição (while)
 import java.util.Scanner;
 
 public class WhileContadorDeFrases {
@@ -10,6 +10,7 @@ public class WhileContadorDeFrases {
         entrada.close();
 
         int contador = 1;
+        // Estrutura de repetição
         while (contador <= numero) {
             System.out.println(contador + " Kevin lindo");
             contador++;

@@ -1,5 +1,5 @@
 package estruturadecondicao.operadorternario;
-
+// Utilizando operador ternário
 public class OperadorTernario5 {
     public static void main(String[] args) {
         double preco = 34.5;
