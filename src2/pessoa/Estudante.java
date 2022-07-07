@@ -1,8 +1,8 @@
 package pessoa;
-
-public class Pessoa {
-    public String nome;
-    public char sexo;
-    public int idade;
+// Criando uma classe
+public class Estudante { // Classe
+    public String nome; // Atributos
+    public char sexo; // Atributos
+    public int idade; // Atributos
 
 }
