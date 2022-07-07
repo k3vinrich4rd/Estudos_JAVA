@@ -8,6 +8,7 @@ public class MainEstudante {
         estudante.idade = 20; // Atributos do objeto
         estudante.sexo = 'M'; // Atributos do objeto
 
+        //Impressão dos atributos do objeto
         System.out.println(estudante.nome);
         System.out.println(estudante.idade);
         System.out.println(estudante.sexo);
