@@ -1,8 +1,8 @@
 package professor;
 
 public class Professor {
-    String nome;
-    int idade;
-    double altura;
+    String nome; // Atributos da classe
+    int idade; // Atributos da classe
+    double altura; // Atributos da classe
 
 }

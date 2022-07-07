@@ -2,10 +2,10 @@ package professor;
 
 public class MainProfessor {
     public static void main(String[] args) {
-        Professor professor = new Professor();
-        professor.nome = "Julio";
-        professor.idade = 28;
-        professor.altura = 1.75;
+        Professor professor = new Professor(); // Objeto
+        professor.nome = "Julio"; // Atributos do objeto
+        professor.idade = 28; // Atributos do objeto
+        professor.altura = 1.75; // Atributos do objeto
 
         // Para imprimir quebrando a linha:
         System.out.println(professor.nome + "\n" + professor.idade + " anos" + "\n"+ professor.altura + " m de altura" );
