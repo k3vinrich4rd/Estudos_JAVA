@@ -1,4 +1,4 @@
-package pessoa;
+package estudante;
 // Criando uma classe
 public class Estudante { // Classe
     public String nome; // Atributos

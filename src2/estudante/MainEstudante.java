@@ -1,6 +1,6 @@
-package pessoa;
+package estudante;
 
-public class Main {
+public class MainEstudante {
     public static void main(String[] args) {
         // Objeto
         Estudante estudante = new Estudante(); // Novo objeto
