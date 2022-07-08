@@ -1,7 +1,7 @@
 package estruturadecondicao.exercicios;
 import java.util.Scanner;
 public class CalculadoraSalarioMinimo {
-    // Calculadora de salário minimo
+    // calculadora.Calculadora de salário minimo
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Digite o valor do seu salário: ");
