@@ -1,25 +1,33 @@
 package estruturaderepeticao.exercicios;
 // Utilizando estrutura de repetição (do while):
+
 import java.util.Scanner;
 
 public class ContadorBasico3 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         String respostaDigitadas = "";
+        int iadade = 0;
 
-
-        // Estrutura de repetição:
+        System.out.print("Quer saber se você é menor ou maior de idade? [S]im / [N]ão: ");
+        respostaDigitadas = entrada.next();
         do {
-
-            System.out.print("Digite a sua idade: ");
-            int idade = entrada.nextInt();
-
-            if (idade <= 15) {
-                System.out.println("Você é menor de idade");
+            if (respostaDigitadas.equalsIgnoreCase("s")){
+                System.out.print("Informe a sua idade: ");
+                iadade = entrada.nextInt();
+                if (iadade < 18) {
+                    System.out.println("Você é menor de idade");
+                }else {
+                    System.out.println("Você é maior de idade");
+                }
+            }else {
+                System.out.println("Ok, talvez outra hora");
+                break;
             }
-            System.out.println("Você ainda quer que a contagem continue? Sim ou Não: ");
-            String respostaDigitada = entrada.next();
-        } while (respostaDigitadas.equalsIgnoreCase("Sim"));
+            System.out.print("Quer verificar mais alguma idade [S]im / [N]ão ");
+            respostaDigitadas = entrada.next();
+        }while (respostaDigitadas.equalsIgnoreCase("s"));
+        System.out.println("Fechando o programa... ");
 
 
     }
