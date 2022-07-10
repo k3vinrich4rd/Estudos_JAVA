@@ -1,4 +1,4 @@
-package array;
+package array.arraylist;
 // Outra maneira de se criar uma Array (Vetor)
 
 public class Array2Guanabara {

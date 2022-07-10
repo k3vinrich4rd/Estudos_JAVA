@@ -1,4 +1,4 @@
-package array;
+package array.arraylist;
 // Trabalhando com duas Arrays:
 public class Array3Guanabara {
     public static void main(String[] args) {

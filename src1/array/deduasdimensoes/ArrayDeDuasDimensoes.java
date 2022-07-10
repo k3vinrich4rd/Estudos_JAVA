@@ -1,4 +1,4 @@
-package array;
+package array.deduasdimensoes;
 // array (vetor/conjunto)
 public class ArrayDeDuasDimensoes {
     public static void main(String[] args) {

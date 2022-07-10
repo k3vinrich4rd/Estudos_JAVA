@@ -1,4 +1,4 @@
-package array;
+package estruturadecondicao;
 // Usando ForEach com array:
 public class ForEach {
     public static void main(String[] args) {

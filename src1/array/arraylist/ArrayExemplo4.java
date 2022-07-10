@@ -1,4 +1,4 @@
-package array;
+package array.arraylist;
 // Declarando uma array:
 public class ArrayExemplo4 {
     public static void main(String[] args) {

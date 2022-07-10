@@ -1,4 +1,4 @@
-package array;
+package array.map;
 // Declarando um map.:
 import java.util.*; // Importa tudo que é da biblioteca util
 // Declarando um map.:

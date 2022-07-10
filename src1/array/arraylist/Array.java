@@ -1,4 +1,4 @@
-package array;
+package array.arraylist;
 /* Array (Vetor/ Conjunto)
 Um grupo
 Declarando um array:

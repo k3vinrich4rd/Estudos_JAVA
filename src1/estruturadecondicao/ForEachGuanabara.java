@@ -1,4 +1,4 @@
-package array;
+package estruturadecondicao;
 // Declarando uma array:
 public class ForEachGuanabara {
     public static void main(String[] args) {
