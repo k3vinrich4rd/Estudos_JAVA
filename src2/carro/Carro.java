@@ -1,8 +1,8 @@
 package carro;
 
 public class Carro { // Classe
-    String nome; // Atributos da classe
-    String modelo; // Atributos da classe
-    int ano; // Atributos da classe
+   public String nome; // Atributos da classe
+    public String modelo; // Atributos da classe
+   public int ano; // Atributos da classe
 
 }
