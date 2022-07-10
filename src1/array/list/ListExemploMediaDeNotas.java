@@ -4,20 +4,20 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 // Declarando uma lista:
-public class ListExemplo {
+public class ListExemploMediaDeNotas {
     // Declarando um Arraylist (list)
 // Array list permite repetição de informação e armazena informação de maneira ordenada
     public static void main(String[] args) {
         List<Double> notas = new ArrayList<>();
         Scanner input = new Scanner(System.in);
         System.out.print("Informe a sua primeira nota: ");
-        notas.add(input.nextDouble());
+        notas.add(input.nextDouble());  // add (adicionar) adiciona valores na lista
         System.out.print("Informe a sua segunda nota: ");
-        notas.add(input.nextDouble());
+        notas.add(input.nextDouble());  // add (adicionar) adiciona valores na lista
         System.out.print("Informe a sua terceira nota: ");
-        notas.add(input.nextDouble());
+        notas.add(input.nextDouble());  // add (adicionar) adiciona valores na lista
         System.out.print("Informe a sua quarta nota: ");
-        notas.add(input.nextDouble());
+        notas.add(input.nextDouble());  // add (adicionar) adiciona valores na lista
         input.close();
 
         System.out.println(notas.get(0)); // Para verificar e a posição da nota
