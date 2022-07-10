@@ -14,39 +14,47 @@ public class LigarParaUmAmigo {
         System.out.print("Você tem um telefone ou celular para efetuar uma ligação [S]im / [N]ão: ");
         repostasDoUsuario = input.next();
 
-
+        // Estrutura de repetição:
         do {
 
+            //Estruturas de condição:
             if (repostasDoUsuario.equalsIgnoreCase("s")) {
-                System.out.print("Digite o número: ");
+                System.out.print("Digite o número: "); // número que vai ser informado
                 numeroDigitado = input.nextDouble();
+                //Estruturas de condição:
                 if (numeroDigitado < 0) {
                     System.out.println("Número inválido informe um número com 11 digitos");
 
                 }
+                //Estruturas de condição:
             } else {
                 System.out.print("Tenha um celular ou número de telefone para efetuar uma ligação\n " +
-                        "\nVocê já tem um número? [S]im / [N]ão:  ");
+                        "\nVocê já tem um celular ou número? [S]im / [N]ão:  ");  // texto de interação
                 repostasDoUsuario = input.next();
+                //Estruturas de condição:
                 if (repostasDoUsuario.equalsIgnoreCase("s")) ;
                 System.out.print("Digite um número: ");
                 numeroDigitado = input.nextDouble();
             }
 
-            System.out.print("A pessoa que você ligou te atendeu [S]im / [N]ão: ");
+            System.out.print("A pessoa que você ligou te atendeu [S]im / [N]ão: ");  // texto de interação
             repostasDoUsuario = input.next();
+            //Estruturas de condição:
             if (repostasDoUsuario.equalsIgnoreCase("s")) {
-                System.out.println("Que bom, você efetuou a sua ligação");
+                System.out.println("Que bom, você efetuou a sua ligação");  // texto de interação
+                //Estruturas de condição:
             } else {
                 System.out.println("Que pena... talvez o número esteja ocupado, tente novamente");
+                // texto de interação
 
             }
 
-            System.out.print("Você deseja fazer mais alguma ligação? ");
+            System.out.print("Você deseja fazer mais alguma ligação? "); // texto de interação
             repostasDoUsuario = input.next();
+            //Estrutura de repetição:
         } while (repostasDoUsuario.equalsIgnoreCase("s"));
         System.out.println("Fechando o programa...");
-        
+
 
     }
 
