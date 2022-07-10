@@ -3,8 +3,8 @@ package calculadora;
 public class MainCalculadora {
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora(); // Objeto
-        calculadora.calculadoraDeDoisNumeros(); // Executando o método
-        System.out.println("Finalizando clculos");
-        calculadora.subtracaoDeDoisNumeros();
+        calculadora.calculadoraDeDoisNumeros(); // Método
+        System.out.println("Finalizando calculos");
+        calculadora.subtracaoDeDoisNumeros(); // Método
     }
 }
