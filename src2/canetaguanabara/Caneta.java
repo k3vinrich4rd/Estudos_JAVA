@@ -1,9 +1,9 @@
-package caneta;
+package canetaguanabara;
 
 public class Caneta {
-    String modelo;
-    String cor;
-    double ponta;
+    public String modelo;
+    public String cor;
+    public double ponta;
     int carga;
     boolean tampada;
 

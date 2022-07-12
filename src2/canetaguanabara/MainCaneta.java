@@ -1,4 +1,4 @@
-package caneta;
+package canetaguanabara;
 
 public class MainCaneta {
     public static void main(String[] args) {
