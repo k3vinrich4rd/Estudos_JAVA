@@ -17,10 +17,10 @@ public class Caneta2 {
 
     public void status() {
         System.out.println("----- Informações sobre a caneta -----");
-        System.out.println("Modelo: " + this.modelo);
-        System.out.println("Uma caneta da cor: " + this.cor);
-        System.out.println("Carga: " + this.carga + "% de tinta");
-        System.out.println("Está tampada? " + this.tampada);
+        System.out.println("Modelo: " + this.getModelo());
+        System.out.println("Uma caneta da cor: " + this.getCor());
+        System.out.println("Carga: " + this.getCarga() + "% de tinta");
+        System.out.println("Está tampada? " + this.getCarga());
 
     }
 
