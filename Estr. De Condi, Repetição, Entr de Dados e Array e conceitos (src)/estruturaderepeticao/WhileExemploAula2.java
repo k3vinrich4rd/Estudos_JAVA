@@ -3,6 +3,7 @@ package estruturaderepeticao;
  Declarando o while (enquanto)
  (teste lógico no inicio) e utilizando if (se)
  */
+
 import java.util.Scanner;
 
 public class WhileExemploAula2 {
@@ -16,16 +17,16 @@ public class WhileExemploAula2 {
             System.out.print("Você deseja continuar rodando? S/N: ");
             Scanner input = new Scanner(System.in);
             String opcao = input.next(); // nesse caso pode ser usado o input.nextLine e next
-            if (opcao.equalsIgnoreCase("n")) {
-                System.out.println("Fechando programa...");
-                System.out.println("Você apertou o sim " + contadorSim + " vezes");
-                controlador = false;
+            if (opcao.equals("s")) {
+                contadorSim += 1;
+            } else {
+                if (opcao.equalsIgnoreCase("n")) {
+                    System.out.println("Fechando programa...");
 
+                    controlador = false;
+                }
             }
-            contadorSim++;
-
-
-
         }
+        System.out.println("Você apertou o sim " + contadorSim + " vez(es)");
     }
 }

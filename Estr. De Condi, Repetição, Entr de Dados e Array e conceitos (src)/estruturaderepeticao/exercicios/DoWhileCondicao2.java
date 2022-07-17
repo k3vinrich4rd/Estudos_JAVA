@@ -10,6 +10,7 @@ public class DoWhileCondicao2 {
         double nota2;
         double nota3;
         double media;
+        int contadorDeVerificacao = 0;
         // Estrutura de repetição:
         do {
             System.out.print("Informe a primeira nota: ");
@@ -22,12 +23,16 @@ public class DoWhileCondicao2 {
             nota3 = entrada.nextDouble();
 
             media = (nota1 + nota2 + nota3) / 3;
+            contadorDeVerificacao+=1;
 
             System.out.print("Quer continuar somando as médias dos alunos? [Sim/Não]: ");
             respostaDaProfessora = entrada.next();
+            if (respostaDaProfessora.equals("s")){
+                contadorDeVerificacao += 1;
+            }
             // loop
         }while (respostaDaProfessora.equalsIgnoreCase("sim"));
         System.out.printf("A média do aluno é: %.2f " , media);
-
+        System.out.println("\nVocê verificou a média dos alunos " + contadorDeVerificacao + " vez(es)");
     }
 }

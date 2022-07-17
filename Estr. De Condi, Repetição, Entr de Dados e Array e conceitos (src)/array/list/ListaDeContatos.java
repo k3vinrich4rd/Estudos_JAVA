@@ -1,10 +1,10 @@
 package array.list;
 
 import java.util.ArrayList;
-
+import java.util.List;
 public class ListaDeContatos {
     public static void main(String[] args) {
-        ArrayList<String> listaDeContatos = new ArrayList<>();
+        List<String> listaDeContatos = new ArrayList<>();
         listaDeContatos.add("Kevin Richard");
         listaDeContatos.add("Ketelyn Mayara");
         listaDeContatos.add("Vilma Regiane");
