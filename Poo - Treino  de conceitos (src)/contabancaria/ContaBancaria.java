@@ -11,18 +11,16 @@ public class ContaBancaria { // Classe
 
 
     public ContaBancaria() { // Método construtor
-        this.saldo = 0;
-        this.status = false;
-
-
+        this.setSaldo(0);
+        this.setStatus(false);
+        System.out.println("------------------");
     }
 
     // Método personalizado
-
     public void estadoAtual() {
-        System.out.println();
+        System.out.println("\nInformações da conta: ");
         System.out.println("Conta: " + this.getNumeroDaConta());
-        System.out.println("Tipo: " + this.tipo);
+        System.out.println("Tipo: " + this.getTipo());
         System.out.println("Dono da conta " + this.getDonoDaConta());
         System.out.println("Saldo: " + this.getSaldo());
         System.out.println("Status : " + this.getStatus());
@@ -69,8 +67,7 @@ public class ContaBancaria { // Classe
         if (this.getStatus()) {
             //if (status == true) {
             if (this.getSaldo() >= valor) { // Acessando a informação diretamente do método modificador
-                // saldo -= valor;
-                this.setSaldo(this.getSaldo() - valor);
+                this.setSaldo(this.getSaldo() - valor);   // saldo -= valor;
                 System.out.println("Saque realizado na conta de " + this.getDonoDaConta());
             } else {
                 System.out.println("Saldo insuficiente para saque");
@@ -81,16 +78,16 @@ public class ContaBancaria { // Classe
     }
 
     // Método personalizado
-    public void pagarMensal() {
-        double v= 0;
-        if (this.getTipo() == "CC") {
-            v = 12;
+    public void pagarMensalidade() {
+        double valorDaMensalidade = 0;
+        if (this.getTipo() == "Conta Corrente") {
+            valorDaMensalidade = 12;
 
-        } else if (this.getTipo() == "CP") {
-            v = 20;
+        } else if (this.getTipo() == "Conta Poupança") {
+            valorDaMensalidade = 20;
         }
         if (this.getStatus()) {
-            this.setSaldo(this.getSaldo() - v);
+            this.setSaldo(this.getSaldo() - valorDaMensalidade);
             System.out.println("Mensalidade paga com sucesso por " + this.getDonoDaConta());
         } else {
             System.out.println("Impossivel pagar os débitos de uma conta fechada!");
