@@ -12,7 +12,6 @@ public class UltraEmojiCombat {
         lutadores[5] = new Lutador("Nerdaard", "EUA", 30, 1.81, 105.7, 12, 2, 4);
 
         lutadores[0].ganharLuta();
-        lutadores[0].getPeso();
         lutadores[0].status();
         lutadores[0].apresentar();
     }
