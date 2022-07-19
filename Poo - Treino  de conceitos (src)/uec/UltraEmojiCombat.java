@@ -11,8 +11,14 @@ public class UltraEmojiCombat {
         lutadores[4] = new Lutador("Ufucobol", "Brasil", 37, 1.70, 119.3, 5, 4, 3);
         lutadores[5] = new Lutador("Nerdaard", "EUA", 30, 1.81, 105.7, 12, 2, 4);
 
-        lutadores[0].ganharLuta();
+        Luta uec01 = new Luta();
+        uec01.marcarLuta(lutadores[4], lutadores[5]);
+        uec01.lutar();
+
+        /* System.out.println();
         lutadores[0].status();
-        lutadores[0].apresentar();
+        System.out.println();
+        lutadores[1].status();
+        */
     }
 }

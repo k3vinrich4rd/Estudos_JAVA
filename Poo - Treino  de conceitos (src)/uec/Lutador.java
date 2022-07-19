@@ -21,7 +21,7 @@ public class Lutador {
     }
 
     public void apresentar() {
-        System.out.println("CHEGOU A HORA! Apresentamos o lutador: " + this.getNome() + "\nDiretamente de: " +
+        System.out.println("CHEGOU A HORA! apresentamos o lutador: " + this.getNome() + "\nDiretamente da(o): " +
                 this.getNacionalidade() + "\nCom: " + this.getIdade() + " anos " + " e altura: " + this.getAltura() + " m" +
                 "\nPesando: " + this.getPeso() + " Kg " + "\nVitórias: " + this.getVitorias() + " vitórias " +
                 "\nDerrotas: " + this.getDerrotas() + " derrotas " + "\nEmpates: " + this.getEmpates() + " empates");
