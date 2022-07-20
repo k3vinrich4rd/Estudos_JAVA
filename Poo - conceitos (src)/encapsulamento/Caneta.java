@@ -1,4 +1,4 @@
-package metodosespeciais;
+package encapsulamento;
 
 public class Caneta {
     public String modelo;

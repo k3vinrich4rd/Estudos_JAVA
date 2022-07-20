@@ -1,4 +1,4 @@
-package metodosespeciais;
+package encapsulamento;
 
 public class MainCaneta {
     public static void main(String[] args) {

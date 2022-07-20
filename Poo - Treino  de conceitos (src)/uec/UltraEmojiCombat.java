@@ -2,7 +2,7 @@ package uec;
 
 public class UltraEmojiCombat {
     public static void main(String[] args) {
-        Lutador lutadores[] = new Lutador[6];
+        Lutador[] lutadores = new Lutador[6];
 
         lutadores[0] = new Lutador("Pretty Boy", "França", 31, 1.75, 68.9, 11, 2, 1);
         lutadores[1] = new Lutador("Putzscript", "Brasil", 29, 1.68, 57.8, 14, 2, 3);
