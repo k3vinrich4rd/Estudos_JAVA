@@ -8,5 +8,9 @@ public class Main {
         lampada.marca = "Philips";
         lampada.cor = "Vermelha";
         lampada.preco = 11.99;
+        lampada.ligada = false;
+
+        lampada.desligarLampada();
+        lampada.ligarLampada();
     }
 }

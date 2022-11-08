@@ -1,4 +1,7 @@
 package estruturadecondicao;
+
+import java.util.Scanner;
+
 /*
 If (Se) Definição
 A estrutura de controle if (se),
@@ -8,7 +11,9 @@ A estrutura de controle if (se),
  */
 public class If { // Utilizando a estrutura If (Se) com um conectivo lógico (! = negação)
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
         int idade = 25;
+
         boolean isAutorizadoComprarBebidaAlcolica = idade >= 18;
 
         System.out.println("Você pode comprar bebida alcólica");
@@ -18,3 +23,4 @@ public class If { // Utilizando a estrutura If (Se) com um conectivo lógico (! =
         }
     }
 }
+
