@@ -1,4 +1,4 @@
-package entradadedados.exerciciosestruturasequencial;
+package entradadedados.exercicios;
 
 import java.util.Scanner;
 
