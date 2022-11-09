@@ -18,6 +18,7 @@ public class Exercicio4 {
 
         System.out.println("NUMBER EMPLOYEE = " + employeeNumber);
         System.out.printf("SALARY = U$ %.2f ", salary);
+
         input.close();
 
 
