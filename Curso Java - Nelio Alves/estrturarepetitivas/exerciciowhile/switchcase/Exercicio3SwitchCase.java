@@ -1,34 +1,41 @@
-package estrturarepetitivas.exercicio;
+package estrturarepetitivas.exerciciowhile.switchcase;
 
 import java.util.Scanner;
 
-public class Exercicio3 {
+public class Exercicio3SwitchCase {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
         int type = input.nextInt();
-
         int alcohol = 0;
         int gasoline = 0;
         int diesel = 0;
 
         while (type != 4) {
-            if (type == 1) {
-                alcohol += 1;
-            } else if (type == 2) {
-                gasoline += 1;
-            } else if (type == 3) {
-                diesel += 1;
+            switch (type) {
+                case 1:
+                    alcohol += 1;
+                    break;
+                case 2:
+                    gasoline += 1;
+                    break;
+                case 3:
+                    diesel += 1;
+                    break;
+                default:
+                    break;
             }
             type = input.nextInt();
+
         }
-        System.out.println("THANK YOU VERY MUCH");
+        System.out.println("MUITO OBRIGADO");
         System.out.println("Alcohol: " + alcohol);
         System.out.println("Gasoline: " + gasoline);
         System.out.println("Diesel: " + diesel);
-
         input.close();
     }
+
+
+
 }
 
 /*
