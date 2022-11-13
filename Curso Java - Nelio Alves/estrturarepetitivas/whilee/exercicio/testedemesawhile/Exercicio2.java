@@ -1,4 +1,4 @@
-package estrturarepetitivas.testedemesawhile;
+package estrturarepetitivas.whilee.exercicio.testedemesawhile;
 
 public class Exercicio2 {
     public static void main(String[] args){

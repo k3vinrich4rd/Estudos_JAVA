@@ -1,4 +1,4 @@
-package estrturarepetitivas.exerciciowhile.switchcase;
+package estrturarepetitivas.whilee.exercicio.switchcase;
 
 import java.util.Scanner;
 

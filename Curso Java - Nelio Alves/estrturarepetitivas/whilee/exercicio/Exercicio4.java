@@ -1,6 +1,4 @@
-package estrturarepetitivas.exerciciowhile;
-
-import java.util.Scanner;
+package estrturarepetitivas.whilee.exercicio;
 
 public class Exercicio4 {
     public static void main(String[] args) {

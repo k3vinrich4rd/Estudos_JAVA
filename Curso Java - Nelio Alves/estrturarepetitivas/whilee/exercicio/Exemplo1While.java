@@ -1,4 +1,4 @@
-package estrturarepetitivas;
+package estrturarepetitivas.whilee.exercicio;
 
 import java.util.Scanner;
 
