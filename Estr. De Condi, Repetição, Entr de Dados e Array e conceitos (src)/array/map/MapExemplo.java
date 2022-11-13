@@ -13,7 +13,7 @@ public class MapExemplo {
         Map<String,String> listaDeConvidados = new HashMap<>();
         listaDeConvidados.put("kevinrichardve@gmail.com", "Kevin Richard");
         listaDeConvidados.put("kevin.candido@zup.com.br", "Richard");
-        // Não é possível duplicar a primeira informação, somente a segunda (Exemplo):
+        // Não é possível duplicar a primeira informação, somente a segunda (ExemploInadequado):
         listaDeConvidados.put("kevinrichardve@gmail.com", "Kevin Richard");
         // Mas é possível duplicar a segunda informação:
         listaDeConvidados.put("kevingatinho@gmail.com", "Kevin Richard"); // Tem relação chave e valor

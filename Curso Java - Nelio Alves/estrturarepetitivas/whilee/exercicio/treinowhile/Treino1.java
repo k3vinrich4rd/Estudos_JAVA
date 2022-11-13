@@ -2,7 +2,7 @@ package estrturarepetitivas.whilee.exercicio.treinowhile;
 
 import java.util.Scanner;
 
-public class Treino1 {
+public class  Treino1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int firstNumber = input.nextInt();
