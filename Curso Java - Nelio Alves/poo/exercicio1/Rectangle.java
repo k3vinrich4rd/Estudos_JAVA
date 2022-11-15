@@ -1,7 +1,7 @@
 package poo.exercicio1;
 
 public class Rectangle {
-    public double width; // largura
+    public double width; // largura (base)
     public double height; // Altura
 
     public double area() {

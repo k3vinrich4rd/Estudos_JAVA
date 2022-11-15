@@ -11,7 +11,7 @@ public class Student {
         return firstNote + secondNote + thirdNote;
     }
 
-    public double missingPoints() { //Falta de pontos
+    public double missingPoints() { //Pontos que faltaram para o aluno passar
         if (finalNote() < 60.0) {
             return 60.0 - finalNote();
         } else {
