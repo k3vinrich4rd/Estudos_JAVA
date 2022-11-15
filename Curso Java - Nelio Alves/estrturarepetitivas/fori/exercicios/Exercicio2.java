@@ -1,5 +1,9 @@
 package estrturarepetitivas.fori.exercicios;
-
+/*
+Leia um valor inteiro N. este valor será a quantidade de valores inteiros X que serão lidos em seguida.
+Mostre quantos destes valores X estão no intervalo [10,20] e quantos estão fora do intervalo, mostrando
+essas informações conforme exemplo (use a palavra "in" para dentro do intervalo, e "out." para fora do intervalo).
+ */
 import java.util.Scanner;
 
 public class Exercicio2 {
