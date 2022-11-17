@@ -8,21 +8,21 @@ Exercicios de programação java - iniciante
 6 - Crie um algoritmo que lê dois números, X e Y, e mostra o resto da divisão entre eles.(feito)
 7 - Crie um algoritmo que lê o salário de um funcionário, reajusta o salário em 7% e mostra o resultado.(feito)
 8 - Crie um algoritmo que lê um valor real em dólar, e converte o valor para reais.
-	Considere que a cotação é US$ 1 = R$ 1,82.
+	Considere que a cotação é US$ 1 = R$ 1,82.(feito)
 9 - Crie um algoritmo que leia as variáveis inteiras x e y e troque o valor destas variáveis.
-    Isto é, x deve ficar com o valor de y e y deve ficar com o valor de x.
+    Isto é, x deve ficar com o valor de y e y deve ficar com o valor de x.(feito)
 	Mostre os valores depois da troca.
-10 - Crie um algoritmo que leia o primeiro nome do usuário e escreva uma saudação para ele.
-11 - Crie um algoritmo que leia uma frase do usuário e escreva na tela exatamente o que o usuário digitar.
-12 - Crie um algoritmo que solicite o nome, o endereço e o telefone do usuário e depois mostra os dados digitados em uma única linha.
+10 - Crie um algoritmo que leia o primeiro nome do usuário e escreva uma saudação para ele.(feito)
+11 - Crie um algoritmo que leia uma frase do usuário e escreva na tela exatamente o que o usuário digitar.(feito)
+12 - Crie um algoritmo que solicite o nome, o endereço e o telefone do usuário e depois mostra os dados digitados em uma única linha.(feito)
 
 
 Comandos de Decisão
 
-13 - Crie um algoritmo que leia um número do usuário e informe se e o número é positivo ou negativo.
-14 - Crie um algoritmo que leia dois valores (x e y) e informe se eles são iguais.
-15 - Crie um algoritmo que leia dois valores (x e y) e informe qual o maior valor.
-16 - Crie um algoritmo que leia um número do usuário e informe se e o número é par ou ímpar.
+13 - Crie um algoritmo que leia um número do usuário e informe se e o número é positivo ou negativo. (feito)
+14 - Crie um algoritmo que leia dois valores (x e y) e informe se eles são iguais.(feito)
+15 - Crie um algoritmo que leia dois valores (x e y) e informe qual o maior valor.(feito)
+16 - Crie um algoritmo que leia um número do usuário e informe se e o número é par ou ímpar.(feito)
 17 - Escreva um algoritmo que leia uma letra que represente o sexo de uma pessoa (M para Masculino e F para feminino).
 	 Se for masculino, mostra a mensagem ?Seja bem-vindo, Senhor!?, se for feminino, mostra a mensagem ?Seja bem-vinda, Senhora!?.
 18 - Crie um algoritmo que leia dois valores (x e y) representando um intervalo.
