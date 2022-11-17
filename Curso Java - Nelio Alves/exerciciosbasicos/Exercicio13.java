@@ -12,9 +12,9 @@ public class Exercicio13 {
         System.out.print("Enter number: ");
         int number = input.nextInt();
 
-        if (number < 0){
+        if (number < 0) {
             System.out.println("The number is negative");
-        }else {
+        } else {
             System.out.println("The number is positive");
         }
         input.close();

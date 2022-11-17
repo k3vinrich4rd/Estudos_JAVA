@@ -6,7 +6,7 @@ import java.util.Scanner;
 6 - Crie um algoritmo que lê dois números, X e Y, e mostra o resto da divisão entre eles.
  */
 public class Exercicio6 {
-    public static void main(String [] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter two numbers and find out the remainder of the division between them: ");
