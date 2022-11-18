@@ -26,7 +26,7 @@ Comandos de Decisão
 17 - Escreva um algoritmo que leia uma letra que represente o sexo de uma pessoa (M para Masculino e F para feminino).
 	 Se for masculino, mostra a mensagem ?Seja bem-vindo, Senhor!?, se for feminino, mostra a mensagem ?Seja bem-vinda, Senhora!?.(feito)
 18 - Crie um algoritmo que leia dois valores (x e y) representando um intervalo.
-	 Em seguida, leia um novo valor (z) e verifique se z pertence ao intervalo [x, y].
+	 Em seguida, leia um novo valor (z) e verifique se z pertence ao intervalo [x, y].(feito)
 19 - Crie um algoritmo que receba do usuário um número qualquer e verifique se esse é múltiplo de 5.
 20 - Crie um algoritmo que, dada uma temperatura em graus célsius, exiba uma mensagem informando o tipo do clima, de acordo com as seguintes condições:
 	 se a temperatura estiver até 18 graus, o clima é frio;
