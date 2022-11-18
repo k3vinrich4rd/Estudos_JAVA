@@ -1,7 +1,5 @@
 package poo.exerciciodefixacao;
 
-import java.util.Scanner;
-
 public class Account {
 
     private int number; // Número da conta
