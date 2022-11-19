@@ -28,7 +28,7 @@ public class MediaDosAlunos {
         System.out.printf("Media dos alunos: %.2f\n", mediaDasNotas);
 
 
-        System.out.println("Você foi o aluno acima da média da sala:");
+        System.out.println("Alunos acima da média da sala:");
         for (int i = 0; i < n; i++) {
             if (notasAlunos[i] > mediaDasNotas) {
 
