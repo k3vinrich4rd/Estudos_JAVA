@@ -3,7 +3,7 @@ package comportamentodememoriaarrayslistas.vetores.exercicios.exercicio3;
 
 import java.util.Scanner;
 
-public class Alturas {
+public class Height { //Média das alturas
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

@@ -2,7 +2,8 @@ package comportamentodememoriaarrayslistas.vetores.exercicios.exercicio2;
 
 import java.util.Scanner;
 
-public class Exercicio2 {
+public class MediaSum { //Média e soma
+
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

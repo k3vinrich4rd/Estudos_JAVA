@@ -2,7 +2,7 @@ package comportamentodememoriaarrayslistas.vetores.exercicios.exercicio1;
 
 import java.util.Scanner;
 
-public class Exercicio1 {
+public class Negatives { //Números não negativos
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter how many numbers you are going to enter: ");

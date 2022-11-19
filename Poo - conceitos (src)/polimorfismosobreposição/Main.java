@@ -1,5 +1,5 @@
 package polimorfismosobreposição;
-//Alturas do projeto
+//Height do projeto
 public class Main {
     public static void main(String[] args) {
         Mamifero mamifero1 = new Mamifero(5.70,8,4,"Preto");
