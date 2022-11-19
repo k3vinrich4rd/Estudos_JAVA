@@ -53,12 +53,13 @@ public class Account {
         return balance;
     }
 
-    public void deposit(double amount) {
-        balance += amount;
+    public void deposit(double amount) { //Deposito
+        balance += amount; // or this.balance
     }
 
-    public void withDraw(double amount) {
+    public void withDraw(double amount) { //Saque
         balance -= amount + 5.0; // A quantia a ser sacada mais 5 (Que é o valor da taxa)
+        // or this.balance
     }
 }
 
