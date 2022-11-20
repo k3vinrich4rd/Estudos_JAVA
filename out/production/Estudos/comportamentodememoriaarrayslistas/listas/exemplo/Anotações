@@ -1,0 +1,26 @@
+Para inserir elementos entre posições:
+list.add(2, "Marli Candido");
+
+Para ver o tamanho da lista:
+System.out.println(list.size());
+
+Para remover um elemento da lista:
+list.remove("Marli Candido");
+
+Para remover elementos da lista via posições:
+list.remove(4);
+
+Para remover elementos que atendam a um predicado:
+list.removeIf(names -> names.charAt(0) == 'K');
+
+Para procurar a posição de um elemento:
+list.indexOf("Vilma Regiane")
+(Quando o indexOf não encontra o elemento, ele retorna -1)
+
+Para deixar na lista elementos que atendam a um predicado:
+List<String> result = list.stream().filter(names -> names.charAt(0) == 'V').collect(Collectors.toList());
+
+Como encontrar elementos na lista que atendem a um predicado:
+String name = list.stream().filter(names -> names.charAt(0) == 'V').findFirst().orElse(null);
+System.out.println(name);
+(Caso esse elemento não ser encontrado, vai ser retornado "null")
