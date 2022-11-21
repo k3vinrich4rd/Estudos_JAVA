@@ -1,0 +1,16 @@
+Para instanciar uma  data a partir do agora:
+LocalDate d01 = LocalDate.now();
+
+Para instanciar uma data e hora a partir do agora:
+LocalDateTime d02 = LocalDateTime.now();
+
+Para instanciar uma data e hora a partir do agora(Com fuso horário de londres):
+Instant d03 = Instant.now();
+
+Para instanciar uma  data a partir do agora(ISO-8859-1):
+LocalDate d04 = LocalDate.parse("2022-11-20");
+
+Para instanciar uma data e hora a partir do agora:
+LocalDateTime d05 = LocalDateTime.parse("2022-11-20T17:36:20");
+
+Para converter
