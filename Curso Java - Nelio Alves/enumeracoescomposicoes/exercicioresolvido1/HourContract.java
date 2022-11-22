@@ -1,4 +1,4 @@
-package enumeracoescomposicoes.exercicio1;
+package enumeracoescomposicoes.exercicioresolvido1;
 
 import java.util.Date;
 

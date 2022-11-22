@@ -1,4 +1,4 @@
-package enumeracoescomposicoes.exercicio1.enums;
+package enumeracoescomposicoes.exercicioresolvido1.enums;
 
 public enum WorkerLevel {
     JUNIOR,

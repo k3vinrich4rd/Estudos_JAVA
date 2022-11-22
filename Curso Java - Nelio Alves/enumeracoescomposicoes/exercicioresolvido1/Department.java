@@ -1,4 +1,4 @@
-package enumeracoescomposicoes.exercicio1;
+package enumeracoescomposicoes.exercicioresolvido1;
 
 public class Department {
     private String name;
