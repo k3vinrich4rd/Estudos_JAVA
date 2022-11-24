@@ -2,16 +2,16 @@ package enumeracoescomposicoes.exercicioresolvido1;
 
 import java.util.Date;
 
-public class HourContract {
-    private Date date;
-    private Double valuePerHour;
-    private Integer hours;
+public class HourContract { //Horas Contrato
+    private Date date; //Data
+    private Double valuePerHour; //Valor por hora
+    private Integer hours; //Horas
 
     public HourContract() {
 
     }
 
-    public HourContract(Date date, Double valuePerHour, Integer hours) {
+    public HourContract(Date date, Double valuePerHour, Integer hours) { //Horas contrato
         this.date = date;
         this.valuePerHour = valuePerHour;
         this.hours = hours;
@@ -41,7 +41,7 @@ public class HourContract {
         this.hours = hours;
     }
 
-    public double totalValue() {
+    public double totalValue() { //Valor total
         return valuePerHour * hours;
     }
 }

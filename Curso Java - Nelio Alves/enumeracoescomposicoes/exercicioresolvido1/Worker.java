@@ -6,12 +6,12 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-public class Worker {
-    private String name;
-    private WorkerLevel level;
-    private Double baseSalary;
+public class Worker { //Funcionário
+    private String name; //Nome
+    private WorkerLevel level; //Nível
+    private Double baseSalary; //Base salarial
 
-    private Department department;
+    private Department department; //Departamento
 
     //A Lista começa vazia, mas depois podemos adicionar valores a ela e remover também
     //Mas de forma algumas podemos alterar essa list por um método set

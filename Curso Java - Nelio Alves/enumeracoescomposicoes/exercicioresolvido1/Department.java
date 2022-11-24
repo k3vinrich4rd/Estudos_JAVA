@@ -1,7 +1,7 @@
 package enumeracoescomposicoes.exercicioresolvido1;
 
-public class Department {
-    private String name;
+public class Department { //Departamento
+    private String name; //Nome
 
     public Department() {
 
