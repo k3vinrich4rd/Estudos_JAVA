@@ -1,0 +1,7 @@
+public class TestValues {
+    public static void main(String [] args) {
+
+        templates.br.com.alura.estudos.heranca.AccountHeranca account = new templates.br.com.alura.estudos.heranca.AccountHeranca(); //Construtor
+        account.setAgency(-50);
+        account.setNumber(-330);
+    }

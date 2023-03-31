@@ -1,0 +1,14 @@
+public class CreateAccount {
+    public static void main(String[] args) {
+        templates.br.com.alura.estudos.heranca.AccountHeranca firstAccount = new templates.br.com.alura.estudos.heranca.AccountHeranca();
+
+        firstAccount.balance = 200;
+        System.out.println(firstAccount.balance);
+
+        //outra forma de atribui valores ao atributo
+        firstAccount.balance += 100;
+        System.out.println(firstAccount.balance);
+
+    }
+}
+

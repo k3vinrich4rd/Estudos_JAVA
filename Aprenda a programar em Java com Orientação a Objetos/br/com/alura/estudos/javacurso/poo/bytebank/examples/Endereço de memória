@@ -1,0 +1,11 @@
+Endereço de memória:
+br.com.alura.estudos.poo.bytebank.templates.templates.br.com.alura.estudos.heranca.AccountHeranca@3fb6a447
+
+br.com.alura.estudos.poo.bytebank.templates -> Domínio
+templates.br.com.alura.estudos.heranca.AccountHeranca -> Objeto do tipo templates.br.com.alura.estudos.heranca.AccountHeranca
+@3fb6a447 -> Endereço de memória
+
+Resumindo: Indica um referencia para o objeto do tipo conta
+que está localizado no endereço de memória 3fb6a447
+e que templates.br.com.alura.estudos.heranca.AccountHeranca (Classe) faz parte do domínio br.com.alura.estudos.poo.bytebank.templates
+

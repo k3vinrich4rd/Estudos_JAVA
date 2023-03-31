@@ -1,0 +1,81 @@
+package br.com.alura.estudos.poo.bytebank.templates;
+
+public class Account {
+    private double balance;
+    private int agency;
+    private int number;
+    private Client holder; //Composição/Referência a client
+    //O valor default de um tipo referência é null
+
+
+    public void depositInAccount(double value) {
+        balance += value;
+        System.out.println("Successful deposit");
+    }
+
+    public boolean checkOut(double value) {
+        if (this.balance < value || this.balance == 0.0) {
+            System.out.println("Impossible to withdraw");
+            return false;
+        } //else {
+        this.balance -= value;
+        System.out.println("Successful withdraw");
+        return true;
+        //}
+    }
+
+    public boolean transfer(double value, Account accountDestiny) {
+        if (this.balance < value || this.balance == 0.0) {
+            System.out.println("Impossible to transfer");
+            return false;
+        } // else {
+        this.balance -= value;
+        accountDestiny.depositInAccount(value);
+        System.out.println("Successful transfer");
+        return true;
+        // }
+    }
+
+    public double getBalance() {
+        return this.balance;
+    }
+
+    public int getAgency() {
+        return this.agency;
+    }
+
+    public void setAgency(int agency) {
+        if (agency <= 0) {
+            System.out.println("Numbers in the agency field cannot be negative or equal to zero");
+            return; //Para não executar a linha abaixo e para a execução da aplicação caso caia
+            //Nesta condição estabelecida
+        }
+        this.agency = agency;
+
+
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        if (number <= 0) {
+            System.out.println("Account numbers cannot be negative or equal to zero");
+            return;
+        }
+        this.number = number;
+    }
+
+    public Client getHolder() {
+        return holder;
+    }
+
+    public void setHolder(Client holder) {
+        this.holder = holder;
+    }
+}

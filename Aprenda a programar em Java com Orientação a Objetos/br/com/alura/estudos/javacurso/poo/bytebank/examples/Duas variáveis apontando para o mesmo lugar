@@ -1,0 +1,35 @@
+Duas variáveis apontando para o mesmo endereço de memória
+Exemplo:
+
+public class ReferenceAndObject {
+    public static void main(String[] args) {
+        templates.br.com.alura.estudos.heranca.AccountHeranca firstAccount = new templates.br.com.alura.estudos.heranca.AccountHeranca();
+        firstAccount.balance = 300;
+
+        System.out.println("Balance in first account: " + firstAccount.balance);
+
+
+        templates.br.com.alura.estudos.heranca.AccountHeranca secondAccount = firstAccount;
+        System.out.println(secondAccount.balance);
+
+
+    }
+}
+
+ Explicação: No caso a variável "secondAccount" está se referenciando ao mesmo endereço de memória
+ que a variável "firstAccount" que referencia/aponta e também manipula os valores dos atributos do objeto.
+ então "secondAccount" tem os mesmos valores que "fistAccount", por conta da referencia feitas através
+ das atribuição.
+
+ Isso também serve para as alterações, pois a alterar o valor do objeto
+ as referencias ("firstAccount" e "secondAccount") refletem as alterações
+
+ Exemplo:
+
+  templates.br.com.alura.estudos.heranca.AccountHeranca secondAccount = firstAccount;
+         System.out.println("Balance in second account: " + secondAccount.balance);
+         secondAccount.balance += 100;
+         System.out.println("Balance in second account: " + secondAccount.balance + "\n"); Response: 400
+
+         System.out.println("Balance in first account: " + firstAccount.balance); Response: 400
+

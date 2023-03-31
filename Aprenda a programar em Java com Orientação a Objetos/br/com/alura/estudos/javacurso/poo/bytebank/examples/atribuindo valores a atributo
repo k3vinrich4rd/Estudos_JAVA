@@ -1,0 +1,3 @@
+//outra forma de atribui valores ao atributo
+        firstAccount.balance += 100;
+        System.out.println(firstAccount.balance);

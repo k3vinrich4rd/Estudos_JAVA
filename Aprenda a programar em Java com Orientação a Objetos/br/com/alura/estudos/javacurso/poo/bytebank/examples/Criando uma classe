@@ -1,0 +1,8 @@
+
+//Atributos públicos
+public class templates.br.com.alura.estudos.heranca.AccountHeranca {
+    public double balance;
+    public int agency;
+    public int number;
+    public String holder;
+}

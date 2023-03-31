@@ -1,0 +1,9 @@
+public class Account {
+    public double balance;
+    public int agency;
+    public int number;
+    public Client holder = new Client(); //Composição/Referência a client
+    //O valor default de um tipo referência é null
+
+}
+

@@ -1,0 +1,41 @@
+Importante -> No conceito de herança o construtor não se herda,
+pois ele é pertencente somente a classe
+Mas, quando vamos declarar um construtor padrão em uma subclasse,
+e a classe progenitora (superclasse/mãe) já tiver declarado um construtor padrão
+também, implicitamente esse construtor padrão da classe mãe,
+também é chamado, através do super();
+
+Exemplo:
+
+//Classe mãe
+public class Employee {
+
+    private String name;
+    private String cpf;
+    private double salary;
+
+    //Construtor padrão
+    public Employee() {
+
+    }
+}
+
+//Classe filha
+public class Manager extends Employee {
+    private int password;
+
+    //Construtor padrão
+    public Manager() {
+        super(); //Opcional, pois colocando "super();" ou não
+        //O construtor da classe mãe é chamado do mesmo jeito (Implicitamente)
+    }
+}
+
+Explicação: Quando vamos instanciar um objeto com o construtor(vazio),
+em vez de se utilizar o construtor de alguma subclass, se utiliza o construtor da classe mais genérica
+a classe mãe (progenitora)
+
+
+Assim é possível uma classe filha reaproveitar o uso do construtor de uma classe mãe
+Sem precisar herdar automaticamente
+

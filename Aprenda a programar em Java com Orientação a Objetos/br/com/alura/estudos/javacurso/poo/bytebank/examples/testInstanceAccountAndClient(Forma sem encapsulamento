@@ -1,0 +1,23 @@
+public class TestInstanceAccountAndClient {
+    public static void main(String[] args) {
+
+        templates.br.com.alura.estudos.heranca.ClientHeranca kevin = new templates.br.com.alura.estudos.heranca.ClientHeranca();
+        kevin.name = "Kevin Richard";
+        kevin.cpf = "111.111.111-11";
+        kevin.profession = "Develop Software";
+
+        templates.br.com.alura.estudos.heranca.AccountHeranca accountKevin = new templates.br.com.alura.estudos.heranca.AccountHeranca();
+        accountKevin.depositInAccount(100);
+        //Associa a conta (O atributo no caso) ao "Kevin"
+        // (Variavel que está fazendo referencia ao objeto)
+        accountKevin.setHolder(kevin);
+        System.out.println("templates.br.com.alura.estudos.heranca.ClientHeranca: " + accountKevin.getHolder().name);
+        System.out.println("Cpf: " + accountKevin.holder.cpf);
+        System.out.println("Profession: " + accountKevin.holder.profession);
+
+
+
+    }
+
+
+}

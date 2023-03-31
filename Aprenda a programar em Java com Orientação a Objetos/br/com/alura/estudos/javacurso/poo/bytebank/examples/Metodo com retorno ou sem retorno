@@ -1,0 +1,56 @@
+A diferença é que o método sem retorno funciona como um serviço e o método com retorno como uma função.
+
+O método com retorno irá trazer para outra parte do código um valor ou objeto que poderá ser usado. Dado seu exemplo:
+
+public void somaDois (int a, int b){
+System.out.println(a+b);
+}
+
+
+Esse método não terá retorno: ele terá apenas a função de somar dois numeros. Portanto, o resultado da soma não está sendo utilizado em nenhuma parte do código, apenas está sendo printado no console.
+
+public int somaDois (int a, int b){
+return a+b;
+}
+
+
+Com o retorno desse método, você obterá um dado do tipo int contendo a soma de a+b. Você poderia usá-lo assim:
+
+int resultadoDaSoma = somaDois(1,3);
+System.out.println(resultadoDaSoma);
+
+
+Quando utilizar:
+Método com retorno ou void
+
+Você que decide quando um método vai retornar algo ou não,
+depende do que você precisa. Por exemplo, você pode ter um método
+que salva alguma informação no banco de dados com retorno void (vazio),
+esse método vai simplesmente salvar pronto, ou você pode ter esse mesmo
+método com algum retorno do tipo: o id do registro salvo, um true or false
+(se deu certo ou não), etc. Depende exclusivamente do objetivo do seu método,
+se você quer que o método retorne alguma informação que você precise usar.
+
+
+Importante:
+É possível  imprimir mensagens na tela ou no console em qualquer caso de uso
+(método com retorno ou void) você só precisa botar a mensagem antes do return da função
+(caso o método tiver return)
+
+ exemplo:
+ public boolean checkOut(double value) {
+         if (this.balance < value || this.balance == 0.0) {
+             System.out.println("Resposta do if"); // antes do return
+             return false;
+         } else {
+             System.out.println("Resposta do else"); // antes do return
+             this.balance -= value;
+             return true;
+         }
+     }
+
+Explicação:
+Tudo que é mandado o programa executar após o return
+nunca será executado, justamente pelo fato do return sair da função
+e devolver um valor um valor.
+

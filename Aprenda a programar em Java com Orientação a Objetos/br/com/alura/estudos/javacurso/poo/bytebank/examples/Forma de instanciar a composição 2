@@ -1,0 +1,14 @@
+public class TestCreateAccountWithoutClient {
+    public static void main(String[] args) {
+
+        Account accountMarcela = new Account();
+        System.out.println(accountMarcela.balance);
+
+        accountMarcela.holder = new Client();
+        System.out.println(accountMarcela.holder);
+
+        accountMarcela.holder.name = "Marcela";
+        System.out.println(accountMarcela.holder.name);
+    }
+}
+
