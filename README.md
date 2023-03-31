@@ -1,3 +1,2 @@
-# Estudos sobre:
-Estruturas de condição 
-Estruturas repetição
+# Estudos sobre Java
+
