@@ -1,5 +1,7 @@
 package br.com.alura.estudos.javacurso.condicionais.exercise;
 
+import java.util.Scanner;
+
 public class ImpostoDeRenda {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

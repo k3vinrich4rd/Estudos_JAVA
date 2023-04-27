@@ -1,5 +1,7 @@
 package br.com.alura.estudos.javacurso.condicionais.exercise;
 
+import java.util.Scanner;
+
 //Forma feia de fazer:
 public class NegativoOuPositivo2 {
     public static void main(String[] args) {

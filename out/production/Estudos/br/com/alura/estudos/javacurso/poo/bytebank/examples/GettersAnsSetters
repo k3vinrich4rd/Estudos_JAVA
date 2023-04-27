@@ -1,0 +1,13 @@
+package br.com.alura.estudos.poo.bytebank.test;
+
+import br.com.alura.estudos.poo.bytebank.templates.templates.br.com.alura.estudos.heranca.AccountHeranca;
+
+public class TestGetterAndSetter {
+    public static void main(String [] args) {
+        templates.br.com.alura.estudos.heranca.AccountHeranca account = new templates.br.com.alura.estudos.heranca.AccountHeranca();
+        //Forma antiga; account.number = 1337;
+        account.setNumber(1337);
+        System.out.println("Number the account: " + account.getNumber());
+    }
+}
+

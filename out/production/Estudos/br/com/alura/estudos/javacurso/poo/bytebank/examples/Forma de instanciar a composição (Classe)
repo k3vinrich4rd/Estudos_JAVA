@@ -1,0 +1,18 @@
+
+public class Account {
+    public double balance;
+    public int agency;
+    public int number;
+    public Client holder; //Composição/Referência a client
+}
+
+Explicação:
+// Um campo da classe Account, está fazendo uma composição
+de referencia da classe client
+
+
+public class Client {
+    public String name;
+    public String cpf;
+    public String profession;
+}

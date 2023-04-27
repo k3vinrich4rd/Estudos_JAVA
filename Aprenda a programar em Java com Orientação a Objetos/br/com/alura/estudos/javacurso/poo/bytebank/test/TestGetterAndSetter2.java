@@ -1,13 +1,13 @@
 package br.com.alura.estudos.javacurso.poo.bytebank.test;
 
-import br.com.alura.estudos.javacurso.poo.bytebank.template.AccountCurrent;
-import br.com.alura.estudos.javacurso.poo.bytebank.template.AccountSavings;
+import br.com.alura.estudos.javacurso.poo.bytebank.template.CurrentAccount;
+import br.com.alura.estudos.javacurso.poo.bytebank.template.SavingsAccount;
 import br.com.alura.estudos.javacurso.poo.bytebank.template.Client;
 
 public class TestGetterAndSetter2 {
     public static void main(String[] args) {
 
-        AccountCurrent account = new AccountCurrent();
+        CurrentAccount account = new CurrentAccount();
         Client kevin = new Client();
         //Forma antiga: kevin.name = "Kevin Richard";
         //Atribuindo um nome:
@@ -28,7 +28,7 @@ public class TestGetterAndSetter2 {
         System.out.println();
 
 
-        AccountSavings accountKatia = new AccountSavings();
+        SavingsAccount accountKatia = new SavingsAccount();
         Client katia = new Client();
 
         katia.setName("Kátia");

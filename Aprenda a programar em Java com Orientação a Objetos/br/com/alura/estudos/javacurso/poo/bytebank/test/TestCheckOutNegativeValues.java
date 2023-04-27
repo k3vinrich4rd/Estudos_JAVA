@@ -1,11 +1,11 @@
 package br.com.alura.estudos.javacurso.poo.bytebank.test;
 
 import br.com.alura.estudos.javacurso.poo.bytebank.template.Account;
-import br.com.alura.estudos.javacurso.poo.bytebank.template.AccountCurrent;
+import br.com.alura.estudos.javacurso.poo.bytebank.template.CurrentAccount;
 
 public class TestCheckOutNegativeValues {
     public static void main(String[] args) {
-        AccountCurrent account = new AccountCurrent();
+        CurrentAccount account = new CurrentAccount();
 
         //Fazendo um saque via método
         account.depositInAccount(100);

@@ -1,0 +1,11 @@
+
+/ new templates.br.com.alura.estudos.heranca.AccountHeranca(); // Fazendo isso já se cria um espaço em memória
+new -> libera espaço na memória pra instanciação do objeto
+e devolve o endereço dessa memória.
+É possível acessar esse mesmo endereço, através de uma variável(do tipo que referência a instanciação)
+
+exemplo:
+templates.br.com.alura.estudos.heranca.AccountHeranca firstAccount = new templates.br.com.alura.estudos.heranca.AccountHeranca();
+
+Explicação
+O objeto é criado e sua referência é atribuída à variável

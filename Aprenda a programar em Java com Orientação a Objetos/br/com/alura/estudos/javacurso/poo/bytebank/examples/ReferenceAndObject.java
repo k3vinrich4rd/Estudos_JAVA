@@ -2,11 +2,11 @@ package br.com.alura.estudos.javacurso.poo.bytebank.examples;
 
 
 import br.com.alura.estudos.javacurso.poo.bytebank.template.Account;
-import br.com.alura.estudos.javacurso.poo.bytebank.template.AccountCurrent;
+import br.com.alura.estudos.javacurso.poo.bytebank.template.CurrentAccount;
 
 public class ReferenceAndObject {
     public static void main(String[] args) {
-        AccountCurrent firstAccount = new AccountCurrent();
+        CurrentAccount firstAccount = new CurrentAccount();
         firstAccount.depositInAccount(300);
         System.out.println("Balance in first account: " + firstAccount.getBalance());
         System.out.println();

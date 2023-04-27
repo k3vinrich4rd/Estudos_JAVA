@@ -1,13 +1,13 @@
 package br.com.alura.estudos.javacurso.poo.bytebank.test;
 
 
-import br.com.alura.estudos.javacurso.poo.bytebank.template.AccountCurrent;
-import br.com.alura.estudos.javacurso.poo.bytebank.template.AccountSavings;
+import br.com.alura.estudos.javacurso.poo.bytebank.template.CurrentAccount;
+import br.com.alura.estudos.javacurso.poo.bytebank.template.SavingsAccount;
 
 public class TestCreateAccount {
     public static void main(String[] args) {
         // new Account(); // Fazendo isso já se cria um espaço em memória
-        AccountCurrent firstAccount = new AccountCurrent();
+        CurrentAccount firstAccount = new CurrentAccount();
 
         firstAccount.depositInAccount(200);
         System.out.println(firstAccount.getBalance());
@@ -16,7 +16,7 @@ public class TestCreateAccount {
         firstAccount.depositInAccount(100);
         System.out.println("Balance in first account: " + firstAccount.getBalance());
 
-        AccountSavings secondAccount = new AccountSavings();
+        SavingsAccount secondAccount = new SavingsAccount();
         secondAccount.depositInAccount(50);
         System.out.println("Balance in second account: " + secondAccount.getBalance());
 

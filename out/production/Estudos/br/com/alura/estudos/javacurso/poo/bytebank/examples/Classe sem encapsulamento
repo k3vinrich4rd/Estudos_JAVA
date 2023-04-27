@@ -1,0 +1,37 @@
+public class templates.br.com.alura.estudos.heranca.AccountHeranca {
+    public double balance;
+    public int agency;
+    public int number;
+    public templates.br.com.alura.estudos.heranca.ClientHeranca holder; //Composição/Referência a client
+    //O valor default de um tipo referência é null
+
+
+    public void depositInAccount(double value) {
+        balance += value;
+        System.out.println("Successful deposit");
+    }
+
+    public boolean checkOut(double value) {
+        if (this.balance < value || this.balance == 0.0) {
+            System.out.println("Impossible to withdraw");
+            return false;
+        } //else {
+        this.balance -= value;
+        System.out.println("Successful withdraw");
+        return true;
+        //}
+    }
+
+    public boolean transfer(double value, templates.br.com.alura.estudos.heranca.AccountHeranca accountDestiny) {
+        if (this.balance < value || this.balance == 0.0) {
+            System.out.println("Impossible to transfer");
+            return false;
+        } // else {
+        this.balance -= value;
+        accountDestiny.depositInAccount(value);
+        System.out.println("Successful transfer");
+        return true;
+        // }
+    }
+
+}

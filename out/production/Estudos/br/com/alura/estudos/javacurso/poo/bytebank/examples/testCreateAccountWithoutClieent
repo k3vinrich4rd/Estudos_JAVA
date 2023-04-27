@@ -1,0 +1,16 @@
+O return tira a necessidade do else dependendo caso,
+pois o return é uma palavra chave que para a execução do método por completo
+isso serve para return true ou return false, então não necessita do senão
+
+Exemplo:
+public boolean transfer(double value, templates.br.com.alura.estudos.heranca.AccountHeranca accountDestiny) {
+        if (this.balance < value || this.balance == 0.0) {
+            System.out.println("Impossible to transfer");
+            return false;
+        } // else {
+        this.balance -= value;
+        accountDestiny.depositInAccount(value);
+        System.out.println("Successful transfer");
+        return true;
+        // }
+    }

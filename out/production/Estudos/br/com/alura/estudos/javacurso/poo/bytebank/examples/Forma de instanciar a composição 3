@@ -1,0 +1,9 @@
+public class TestCreateAccountWithInstanceInternClient {
+    public static void main(String[] args) {
+
+        Account accountMarcela = new Account();
+        accountMarcela.holder.name = "Karen";
+        System.out.println(accountMarcela.holder.name);
+    }
+}
+

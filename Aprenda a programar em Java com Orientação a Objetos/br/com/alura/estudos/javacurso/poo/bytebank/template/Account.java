@@ -9,28 +9,38 @@ public abstract class Account {
     private static int total; //Static significa que o atributo pertence à classe
     // e não é um atributo de instância
 
-    public Account(double balance, int agency, int number, Client holder) {
-        //Incrementa a quantidade de contas
-        Account.total++; //ou total++;
-        //System.out.println("Total accounts created: " + total); forma de ter acesso ao valor
-        this.balance = balance;
-        this.agency = agency;
-        this.number = number;
-        this.holder = holder;
-    }
-
-    public Account(int agency, int number) {
-        //Incrementa a quantidade de contas
-        Account.total++;
-        this.agency = agency;
-        this.number = number;
-        //this.balance = 100;
-
-    }
-
     public Account() {
         Account.total++;
     }
+
+    public Account(int agency, int number) {
+        this.agency = agency;
+        this.number = number;
+        Account.total++;
+    }
+
+    //Construtor
+    public Account(Client holder, double balance, int agency, int number) {
+        this.holder = holder;
+        this.balance = balance;
+        this.agency = agency;
+        this.number = number;
+        Account.total++;
+    }
+
+    public Account(Client holder, double balance) {
+        this.holder = holder;
+        this.balance = balance;
+        this.agency = 1;
+        this.number = 1;
+        Account.total++;
+    }
+
+    public Account(Client holder) {
+        this.holder = holder;
+        Account.total++;
+    }
+
 
     public abstract void depositInAccount(double value);
 
@@ -103,5 +113,41 @@ public abstract class Account {
 
     public static int getTotal() {
         return Account.total;
+    }
+
+    @Override
+    public boolean equals(Object conta) { // Como equals recebe um Object em seu parâmetro
+        Account contaDeReferencia = (Account) conta; //É necessário fazer um type cast. Para acessar
+        // os valores necessários para se fazer a comparação que regra de negócio exige
+        return this.agency == contaDeReferencia.agency &&
+                this.number == contaDeReferencia.number;
+    }
+
+
+    @Override
+    public String toString() {
+        return
+                "Holder: " + holder + "\n" +
+                        "Balance in account: " + balance + "\n" +
+                        "Agency: " + agency + "\n" +
+                        "Number account: " + number;
+    }
+
+    //Sobrecarga toString
+    public String toString(int agency, int number) {
+        return
+                "Agency: " + agency + "\n" +
+                        "Number account: " + number;
+    }
+
+
+    public String toString(Client holder, double balance) {
+        return
+                "Holder: " + holder + "\n" +
+                        "Balance in account: " + balance;
+    }
+
+    public String toString(Client holder) {
+        return "Holder: " + holder;
     }
 }

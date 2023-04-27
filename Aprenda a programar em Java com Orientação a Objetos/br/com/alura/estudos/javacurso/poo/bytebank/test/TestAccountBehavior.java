@@ -1,13 +1,13 @@
 package br.com.alura.estudos.javacurso.poo.bytebank.test;
 
 
-import br.com.alura.estudos.javacurso.poo.bytebank.template.AccountCurrent;
-import br.com.alura.estudos.javacurso.poo.bytebank.template.AccountSavings;
+import br.com.alura.estudos.javacurso.poo.bytebank.template.CurrentAccount;
+import br.com.alura.estudos.javacurso.poo.bytebank.template.SavingsAccount;
 
 public class TestAccountBehavior {
     public static void main(String[] args) {
-        AccountCurrent firstAccount = new AccountCurrent();
-        AccountSavings secondAccount = new AccountSavings();
+        CurrentAccount firstAccount = new CurrentAccount();
+        SavingsAccount secondAccount = new SavingsAccount();
 
         firstAccount.depositInAccount(200);
         System.out.println("Balance in first account: " + firstAccount.getBalance());

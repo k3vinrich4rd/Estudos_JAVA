@@ -1,0 +1,12 @@
+public boolean transfer(double value, Account accountDestiny) {
+        if (this.balance < value || this.balance == 0.0) {
+            System.out.println("Impossible to transfer");
+            return false;
+        } // else {
+        this.balance -= value;
+        accountDestiny.depositInAccount(value);
+        System.out.println("Successful transfer");
+        return true;
+        // }
+    }
+
