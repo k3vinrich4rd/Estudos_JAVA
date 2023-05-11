@@ -12,8 +12,15 @@ public class Client {
         this.name = name;
         this.cpf = cpf;
         this.profession = profession;
-
     }
+
+    public Client(String name, String cpf) {
+        //Incrementa a quantidade de clients
+        Client.clientsTotal++;
+        this.name = name;
+        this.cpf = cpf;
+    }
+
 
     public Client() {
         //Incrementa a quantidade de clients
@@ -44,7 +51,12 @@ public class Client {
         this.profession = profession;
     }
 
-    public static int getClientsTotal(){
+    public static int getClientsTotal() {
         return Client.clientsTotal;
+    }
+
+    @Override
+    public String toString() {
+        return  getName();
     }
 }

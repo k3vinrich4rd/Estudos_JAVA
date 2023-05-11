@@ -8,6 +8,8 @@ public class Client implements Authenticated {
         this.utilAuthentication = new UtilAuthentication();
     }
 
+
+
     @Override
     public void setPassword(int password) {
         this.utilAuthentication.setPassword(password);

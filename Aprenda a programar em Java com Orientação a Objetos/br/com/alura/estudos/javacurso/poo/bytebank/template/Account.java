@@ -1,11 +1,14 @@
 package br.com.alura.estudos.javacurso.poo.bytebank.template;
 
-public abstract class Account {
+import java.io.Serializable;
+
+public abstract class Account implements Serializable {
     protected double balance;
     private int agency;
     private int number;
     private Client holder; //Composição/Referência a client
     //O valor default de um tipo referência é null
+    //transient → Para a composição ficar fora da serialização
     private static int total; //Static significa que o atributo pertence à classe
     // e não é um atributo de instância
 
