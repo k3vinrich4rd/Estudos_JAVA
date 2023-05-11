@@ -1,4 +1,4 @@
-package br.com.alura.estudos.javacurso.classesanonimas;
+package br.com.alura.estudos.javacurso.comparator.testordenacao;
 
 import br.com.alura.estudos.javacurso.poo.bytebank.template.Account;
 import br.com.alura.estudos.javacurso.poo.bytebank.template.Client;
@@ -6,10 +6,11 @@ import br.com.alura.estudos.javacurso.poo.bytebank.template.CurrentAccount;
 import br.com.alura.estudos.javacurso.poo.bytebank.template.SavingsAccount;
 
 import java.util.ArrayList;
-import java.util.Comparator;
+import java.util.Collections;
 import java.util.List;
 
-public class TesteOrdenacaoNomeCliente3ClasseAnonima {
+
+public class TesteOrdenacaoNaturalPeloSaldo {
     public static void main(String[] args) {
 
         Account cc1 = new CurrentAccount(22, 33);
@@ -42,27 +43,26 @@ public class TesteOrdenacaoNomeCliente3ClasseAnonima {
         lista.add(cc3);
         lista.add(cc4);
 
+
         System.out.println("Sem o método de numeroDaContaComparator");
         for (Account list1 : lista) {
             System.out.println(list1);
         }
         System.out.println();
 
-        //Classe anônima, outra forma de implementa
-        //Sintaxe:
-        Comparator<Account> comparator = (Account conta1, Account conta2) -> {
-            String nomeConta1 = conta1.getHolder().getName();
-            String nomeConta2 = conta2.getHolder().getCpf();
-            return nomeConta1.compareToIgnoreCase(nomeConta2);
-             /* return -1; //Vai para a primeira posição
-                return 1; //Vai para a última posição
-                return 0; //Para número*/
-        };
 
-        lista.sort(comparator);
-         /* return -1; //Vai para a primeira posição
-                return 1; //Vai para a última posição
-                return 0; //Para número*/
+        //Definindo a ordem natural da lista pelo critério de saldo
+        Collections.sort(lista);
+
+         /* Importante ? Para utilizar o método compare podemos criar um objeto
+         e uma variável de referência, mas como usamos a variável para passar
+         apenas dentro do argumento do (sort), podemos fazer de uma maneira mais enxuta:*/
+        // lista.sort(new TitularDaContaComparator());
+
+        //Maneira menos enxuta
+        // TitularDaContaComparator titularDaContaComparator = new TitularDaContaComparator();
+        //lista.sort(titularDaContaComparator);
+
         System.out.println("Com o método de numeroDaContaComparator ");
         for (Account list2 : lista) {
             System.out.println(list2);

@@ -1,4 +1,4 @@
-package br.com.alura.estudos.javacurso.lambda;
+package br.com.alura.estudos.javacurso.ordenacao;
 
 import br.com.alura.estudos.javacurso.poo.bytebank.template.Account;
 import br.com.alura.estudos.javacurso.poo.bytebank.template.Client;

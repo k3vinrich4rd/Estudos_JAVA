@@ -1,4 +1,4 @@
-package br.com.alura.estudos.javacurso.lambda;
+package br.com.alura.estudos.javacurso.ordenacao;
 
 public class LambdaSemParametro {
     public static void main(String[] args) {
