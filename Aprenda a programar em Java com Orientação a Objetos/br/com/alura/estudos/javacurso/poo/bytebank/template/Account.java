@@ -1,8 +1,10 @@
 package br.com.alura.estudos.javacurso.poo.bytebank.template;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.io.Serializable;
 
-public abstract class Account implements Serializable {
+public abstract class Account implements Serializable, Comparable<Account> {
     protected double balance;
     private int agency;
     private int number;
@@ -126,6 +128,10 @@ public abstract class Account implements Serializable {
                 this.number == contaDeReferencia.number;
     }
 
+    @Override
+    public int compareTo(Account account) {
+        return Double.compare(this.balance, account.balance);
+    }
 
     @Override
     public String toString() {
