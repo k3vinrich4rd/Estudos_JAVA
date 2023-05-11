@@ -7,9 +7,10 @@ import br.com.alura.estudos.javacurso.poo.bytebank.template.CurrentAccount;
 import br.com.alura.estudos.javacurso.poo.bytebank.template.SavingsAccount;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
-public class TesteOrdenacaoNumeroDaConta2 {
+public class TesteOrdenacaoNumeroDaContaFormaLegada {
     public static void main(String[] args) {
 
         Client cliente = new Client("Kevin Richard", "333.333.333-33");
@@ -34,22 +35,16 @@ public class TesteOrdenacaoNumeroDaConta2 {
         lista.add(cc3);
         lista.add(cc4);
 
-        System.out.println("Sem o método de numeroDaContaComparator");
-        for (Account list : lista) {
-            System.out.println(list);
+        System.out.println("Sem o m�todo de numeroDaContaComparator");
+        for (Account list1 : lista) {
+            System.out.println(list1);
         }
         System.out.println();
 
-         /* Importante → Para utilizar o método compare podemos criar um objeto
-         e uma variável de referência, mas como usamos a variável para passar
-         apenas no argumento do (sort), podemos fazer de uma maneira mais enxuta:*/
-        lista.sort(new NumeroDaContaComparator()); //Se passar null vai continuar ordenando pelo critério
+        //Forma antiga de ordenar uma lista
+        Collections.sort(lista, new NumeroDaContaComparator());
 
-        //Maneira menos enxuta
-        //NumeroDaContaComparator numeroDaContaComparator = new NumeroDaContaComparator();
-        //lista.sort(numeroDaContaComparator);
-
-        System.out.println("Com o método de numeroDaContaComparator ");
+        System.out.println("Com o m�todo de numeroDaContaComparator ");
         for (Account list2 : lista) {
             System.out.println(list2);
         }
