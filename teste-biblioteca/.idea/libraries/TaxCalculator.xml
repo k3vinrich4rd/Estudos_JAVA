@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="TaxCalculator">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/src/libs/TaxCalculator.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
