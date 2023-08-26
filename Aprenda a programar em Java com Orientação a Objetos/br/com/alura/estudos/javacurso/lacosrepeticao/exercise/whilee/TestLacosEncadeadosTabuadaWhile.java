@@ -1,4 +1,4 @@
-package br.com.alura.estudos.javacurso.lacosrepeticao;
+package br.com.alura.estudos.javacurso.lacosrepeticao.exercise.whilee;
 
 public class TestLacosEncadeadosTabuadaWhile {
     public static void main(String[] args) {

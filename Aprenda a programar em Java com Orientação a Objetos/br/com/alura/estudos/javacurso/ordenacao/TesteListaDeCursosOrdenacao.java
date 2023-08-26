@@ -1,6 +1,7 @@
 package br.com.alura.estudos.javacurso.ordenacao;
 
-import br.com.alura.estudos.java8.stream.Curso;
+
+import br.com.alura.estudos.javacurso.lambda.stream.Curso;
 
 import java.util.ArrayList;
 import java.util.Comparator;

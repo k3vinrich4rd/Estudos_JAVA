@@ -1,8 +1,8 @@
-package br.com.alura.estudos.javacurso.lacosrepeticao;
+package br.com.alura.estudos.javacurso.lacosrepeticao.exercise.whilee;
 
 import java.util.Scanner;
 
-public class TestLacosTabuadaWhile {
+public class TestLacosEncadeadosTabuada2While {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

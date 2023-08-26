@@ -1,6 +1,7 @@
 package br.com.alura.estudos.javacurso.classecomlista.relacionamentocomcolecoes.exercise;
 
-import br.com.alura.collections.set.exercise.classecomconjuntosset.Student;
+
+import br.com.alura.estudos.javacurso.set.exercise.classecomconjuntosset.Student;
 
 public class TestingCourseWithStudent1 {
     public static void main(String[] args) {

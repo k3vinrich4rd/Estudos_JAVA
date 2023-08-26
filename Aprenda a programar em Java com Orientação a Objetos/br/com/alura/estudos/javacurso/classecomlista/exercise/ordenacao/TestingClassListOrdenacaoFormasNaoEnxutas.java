@@ -1,6 +1,7 @@
 package br.com.alura.estudos.javacurso.classecomlista.exercise.ordenacao;
 
-import br.com.alura.collections.classecomlista.relacionamentocomcolecoes.exercise.Classroom;
+
+import br.com.alura.estudos.javacurso.classecomlista.relacionamentocomcolecoes.exercise.Classroom;
 
 import java.util.ArrayList;
 import java.util.Collections;

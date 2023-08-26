@@ -1,4 +1,4 @@
-package br.com.alura.estudos.javacurso.lacosrepeticao;
+package br.com.alura.estudos.javacurso.lacosrepeticao.exercise.fori;
 
 import java.util.Scanner;
 
