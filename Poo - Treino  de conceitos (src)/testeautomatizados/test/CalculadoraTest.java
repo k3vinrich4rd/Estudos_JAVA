@@ -1,6 +1,7 @@
-package br.com.alura.testeautomatizados.test;
+package testeautomatizados.test;
 
-import br.com.alura.testeautomatizados.templates.Calculadora;
+
+import testeautomatizados.templates.Calculadora;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -8,13 +9,13 @@ public class CalculadoraTest {
 
 
     /* Testes são divididos em três partes
-        * Cénario * O Esperado * O resultado */
+        * Cenário * O Esperado * O resultado */
     @Test
     public void deveriaSomarDoisNumerosPositivos() {
         Calculadora calculadora = new Calculadora();
         int sum = calculadora.sum(3, 7);
 
-        Assertions.assertEquals(10, sum); //Susbtitui o System.out
+        Assertions.assertEquals(10, sum); //Substitui o System.out
     }
 }
 

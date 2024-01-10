@@ -2,7 +2,7 @@ package br.com.alura.estudos.javacurso.lacosrepeticao;
 
 import java.util.Scanner;
 
-public class TabuadaComposta {
+public class TabuadaCompostaTest {
     public static void main(String[] args) {
 
         int primeiroNumero;
@@ -13,6 +13,7 @@ public class TabuadaComposta {
         int divisao;
 
         Scanner input = new Scanner(System.in);
+
         System.out.println("Digite '1' para somar dois números ");
         System.out.println("Digite '2' para multiplicar dois números");
         System.out.println("Digite '3' para subtrair dois números");
@@ -20,6 +21,18 @@ public class TabuadaComposta {
 
         System.out.print("\nNumero escolhido: ");
         int resposta = input.nextInt();
+
+        while (resposta > 4 || resposta < 0) {
+            System.out.println("Número inválido");
+            System.out.println("Digite '1' para somar dois números ");
+            System.out.println("Digite '2' para multiplicar dois números");
+            System.out.println("Digite '3' para subtrair dois números");
+            System.out.println("Digite '4' para dividir dois números");
+
+            System.out.print("Numero escolhido: ");
+            resposta = input.nextInt();
+
+        }
 
         switch (resposta) {
             case 1:
@@ -31,7 +44,6 @@ public class TabuadaComposta {
                 System.out.println("Resultado da soma: " + soma);
                 break;
             case 2:
-
                 System.out.print("\nDigite o primeiro número: ");
                 primeiroNumero = input.nextInt();
                 System.out.print("Digite o segundo número: ");
@@ -40,7 +52,6 @@ public class TabuadaComposta {
                 System.out.println("Resultado da multiplicação: " + multiplicador);
                 break;
             case 3:
-
                 System.out.print("\nDigite o primeiro número: ");
                 primeiroNumero = input.nextInt();
                 System.out.print("Digite o segundo número: ");
@@ -54,7 +65,6 @@ public class TabuadaComposta {
                 System.out.println("Resultado da subtração: " + subtracao);
                 break;
             case 4:
-
                 System.out.print("\nDigite o primeiro número: ");
                 primeiroNumero = input.nextInt();
                 System.out.print("Digite o segundo número: ");
@@ -66,17 +76,6 @@ public class TabuadaComposta {
                 }
                 divisao = primeiroNumero / segundoNumero;
                 System.out.println("Resultado da divisão: " + divisao);
-                break;
-            default:
-                while (resposta > 4 || resposta < 0) {
-                    System.out.println("Digite '1' para somar dois números ");
-                    System.out.println("Digite '2' para multiplicar dois números");
-                    System.out.println("Digite '3' para subtrair dois números");
-                    System.out.println("Digite '4' para dividir dois números");
-
-                    System.out.print("\nNumero escolhido: ");
-                    resposta = input.nextInt();
-                }
                 break;
         }
         input.close();

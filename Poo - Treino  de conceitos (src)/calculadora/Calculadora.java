@@ -9,4 +9,8 @@ public class Calculadora { // Classe
     public void subtracaoDeDoisNumeros() { // Método (sem retorno, mas com saída)
         System.out.println(21 - 2);
     }
+
+    public int sum(int firstNumber, int secondNumber) {
+        return firstNumber + secondNumber;
+    }
 }

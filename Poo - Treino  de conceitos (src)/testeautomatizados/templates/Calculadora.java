@@ -1,4 +1,4 @@
-package br.com.alura.testeautomatizados.templates;
+package testeautomatizados.templates;
 
 public class Calculadora {
 

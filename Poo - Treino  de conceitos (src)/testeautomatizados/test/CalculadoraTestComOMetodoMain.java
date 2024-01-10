@@ -1,6 +1,7 @@
-package br.com.alura.testeautomatizados.test;
+package testeautomatizados.test;
 
-import br.com.alura.testeautomatizados.templates.Calculadora;
+
+import calculadora.Calculadora;
 
 //Uma maneira de se escrever um teste automatizado
 /*Mas dessa maneira não está muito legal por conta da sua grandeza e extensão

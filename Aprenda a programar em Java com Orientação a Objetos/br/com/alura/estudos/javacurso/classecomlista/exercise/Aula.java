@@ -2,8 +2,8 @@ package br.com.alura.estudos.javacurso.classecomlista.exercise;
 
 public class Aula {
 
-    private String title;
-    private int timeInMinutes;
+    private final String title;
+    private final int timeInMinutes;
 
     public Aula(String title, int timeInMinutes) {
         this.title = title;
