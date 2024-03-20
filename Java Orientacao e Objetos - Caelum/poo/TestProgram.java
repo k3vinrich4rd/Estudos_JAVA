@@ -7,7 +7,7 @@ public class TestProgram {
         minhaConta = new Conta();
 
         //Alterando os valores da conta
-        minhaConta.holder = "Duke";
+        minhaConta.titular.nome = "Duke";
         minhaConta.balance = 1000.0;
 
         //Saca 200 reais
