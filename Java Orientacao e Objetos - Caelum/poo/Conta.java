@@ -18,5 +18,16 @@ public class Conta {
     void deposita(double quantity) {
         this.balance =+ quantity;
     }
+
+    boolean transfere(Conta contaDestino, double quantity) {
+        boolean retirou = this.saca(quantity);
+        if (retirou == false) {
+            return false;
+        }else {
+            contaDestino.deposita(quantity);
+            return true;
+        }
+
+    }
 }
 
