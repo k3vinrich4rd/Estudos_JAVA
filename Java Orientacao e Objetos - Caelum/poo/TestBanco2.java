@@ -1,6 +1,6 @@
 package poo;
 
-public class TestProgram2 {
+public class TestBanco2 {
     public static void main(String[] args) {
 
         Conta minhaConta;
