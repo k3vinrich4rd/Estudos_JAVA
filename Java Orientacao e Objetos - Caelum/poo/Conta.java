@@ -2,7 +2,7 @@ package poo;
 
 public class Conta {
     int number;
-    String holder;
+    Cliente titular;
 
     double balance;
 
