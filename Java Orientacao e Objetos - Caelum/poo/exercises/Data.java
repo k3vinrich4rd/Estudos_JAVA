@@ -6,4 +6,10 @@ public class Data {
     int mes;
     int ano;
 
+    String formatada() {
+        return "Dia: " + this.dia + "\n"
+                + "Mês: " + this.mes + "\n"
+                + "Ano: " + this.ano;
+    }
+
 }

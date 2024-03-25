@@ -28,7 +28,6 @@ public class Conta {
                         "Agência da conta: " + this.agencia + "\n" +
                         "Saldo da conta: " + this.saldo + "\n" +
                         "Rendimento da conta: " + this.calcularRendimento() + "\n" +
-                        "Data de abertura da conta: " + "\nDia: " + this.dataDeAbertura.dia + "\n" +
-                        "Mes: " + this.dataDeAbertura.mes + "\n" + "Ano: " + this.dataDeAbertura.ano;
+                        "Data de abertura: " + this.dataDeAbertura.formatada();
     }
 }
