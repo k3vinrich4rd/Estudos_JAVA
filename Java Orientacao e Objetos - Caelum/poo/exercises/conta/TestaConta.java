@@ -1,6 +1,6 @@
-package poo.exercises;
+package poo.exercises.conta;
 
-public class TestaConta5 {
+public class TestaConta {
     public static void main(String[] args) {
 
         Data data = new Data();
