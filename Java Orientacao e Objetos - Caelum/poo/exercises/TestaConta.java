@@ -11,7 +11,7 @@ public class TestaConta {
         conta.saldo = 1000.0;
         conta.dataDeAbertura.dia = 20;
         conta.dataDeAbertura.mes = 3;
-        conta.dataDeAbertura.dia = 2024;
+        conta.dataDeAbertura.ano = 2024;
 
         System.out.println(conta.recuperarDadosParaImpressao());
     }
